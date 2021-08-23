@@ -1,0 +1,15 @@
+type: PayloadConveyor
+moveTime: 70
+payloadLimit: 1
+category: units
+health: 50
+size: 1
+decription: "a 1x1 payload conveyor"
+moveForce: 200
+name: Small Payload Belt
+requirements:
+[
+    copper/10
+    lead/5
+    graphite/5
+]

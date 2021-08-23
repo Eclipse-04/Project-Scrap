@@ -1,0 +1,7 @@
+name: industrial
+displayName: Industrial
+author: Eclipse
+description: My First v7 mod
+version: 0.1
+minGameVersion: 129.2
+dependencies: [ ]

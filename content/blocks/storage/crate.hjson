@@ -1,0 +1,11 @@
+type: StorageBlock
+size: 1
+name: "Crate"
+hasItems: true
+itemCapacity: 50
+health: 100
+requirements:
+[
+    copper/50
+    graphite/25
+]

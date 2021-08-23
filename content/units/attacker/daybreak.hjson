@@ -1,0 +1,50 @@
+name: Daybreak
+speed: 1.65
+accel: 0.08
+drag: 0.016
+type: flying
+flying: true
+hitSize: 9
+range: 140
+faceTarget: false
+armor: 6
+weapons:
+[
+    {
+        name: daybreaker
+        x: 3
+        y: 0
+        reload: 30
+        shots: 4
+        mirror: true
+        alternate: true
+        inaccuracy: 15
+        ignoreRotaion: true
+        shotDelay: 4
+        shootSound: none
+        bullet:
+        {
+            type: BombBulletType
+            backColor: f9c27a
+            frontColor: fff8e8
+            width: 10
+            height: 14
+            hitEffect: flakExplosion
+            shootEffect: none
+            smokeEffect: none
+            status: blasted
+            statusDuration: 60
+            damage: 27
+            splashDamage: 15
+            splashDamageRadius: 25
+            fragBullets: 3
+            fragBullet: {
+                type: BasicBulletType
+                lifeTime: 6
+                speed: 3
+                height: 4
+                width: 3
+            }
+        }
+    }
+]

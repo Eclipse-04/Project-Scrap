@@ -1,0 +1,30 @@
+desciption: "Refine Scrap into a better, more durable metal"
+craftEffect: steam
+hasItems: true
+hasLiquids: true
+hasPower: true
+craftTime: 45
+size: 2
+name: Scrap Refinery
+consumes:
+{
+    power: 1.5
+    items: {
+        items: [
+            scrap/3
+            titanium/1
+        ]
+    }
+    liquid: {
+        liquid: water
+        amount: 0.2
+    }
+}
+category: crafting
+outputItem: refined-scrap/2
+requirements:
+[
+    titanium/90
+    copper/55
+    graphite/35
+]

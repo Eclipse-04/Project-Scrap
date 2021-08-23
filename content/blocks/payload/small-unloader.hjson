@@ -1,0 +1,17 @@
+type: BlockUnloader
+desciption: "A smaller block unloader for early game"
+name: Small Block Unloader
+size: 1
+payloadLimit: 1
+health: 130
+requirements:
+[
+    copper/120
+    lead/50
+    graphite/35
+    silicon/20
+]
+powerUse: 1
+maxBlockSize: 1
+category: distribution
+consumesPower: true

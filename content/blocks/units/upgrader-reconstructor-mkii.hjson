@@ -1,0 +1,45 @@
+type: Reconstructor
+name: Upgrader Reconstuctor MKII
+description: "Upgrade Units to the next Tier."
+health: 1600
+size: 5
+constructTime: 720
+requirements:
+[
+    copper/750
+    lead/450
+    titanium/145
+    silicon/250
+]
+upgrades:
+[
+    [advanced-miner, quin]
+    [horizon, daybreak]
+]
+
+consumes:
+{
+    items: {
+        items: [
+            {
+                item: refined-scrap
+                amount: 75
+            }
+            {
+                item: titanium
+                amount: 120
+            },
+            {
+                item: metaglass
+                amount: 60
+            },
+            {
+                item: silicon
+                amount: 140
+            }
+        ]
+    }
+    power: 4.3333
+}
+
+category: units

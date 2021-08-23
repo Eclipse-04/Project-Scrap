@@ -1,0 +1,19 @@
+type: BlockForge
+desciption: "A smaller block forge for early game"
+name: Small Block Unloader
+size: 1
+payloadLimit: 1
+health: 130
+buildSpeed: 0.2
+maxBlockSize: 1
+requirements:
+[
+    copper/150
+    lead/120
+    titanium/20
+    graphite/75
+    silicon/45
+]
+powerUse: 1
+maxBlockSize: 1
+consumesPower: true

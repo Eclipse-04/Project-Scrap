@@ -1,0 +1,69 @@
+type: flying
+name: "Bask"
+description: "An advanced Flare, shoot swarm of missile"
+health: 220
+flying: true
+speed: 4
+armor: 1
+drag: 0.02
+itemCapacity: 70
+rotateSpeed: 20
+circleTarget: true;
+accel: 0.10
+range: 150
+abilities: 
+[
+    {
+        type: ShieldRegenFieldAbility
+        amount: 5
+        reload: 60
+        range: 60
+        max: 20
+    }
+]
+weapons:
+[
+    {
+        name: fighter-missler
+        x: 4
+        y: 3
+        inaccuracy: 20
+        shotDelay: 3.5
+        shots: 4
+        mirror: true
+        rotate: false
+        reload: 60
+        ejectEffect: {
+            type: WaveEffect
+            lifetime: 10
+            sizeFrom: 0
+            sizeTo: 10
+            strokeFrom: 6
+            strokeTo: 0
+
+        }
+
+        bullet: {
+            type: MissileBulletType
+            backColor: e58956
+            frontColor: ffd2ae
+            trailColor: e58956
+            trailLength: 7
+            trailWidth: 2
+            width: 7
+            height: 10
+            homingRange: 56
+            homingPower: 0.1
+            drag: -0.03
+            lifetime: 60
+            makeFire: true
+            puddles: 3
+            puddleRange: 1
+            puddleAmount: 10
+            puddleLiquid: slag
+            damage: 15
+            keepVelocity: false
+            maxRange: 180
+        }
+    }
+]

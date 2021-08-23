@@ -1,0 +1,36 @@
+type: PowerTurret
+descirption: "Shoot Electric bullet"
+size:2
+name: "Current"
+health: 550
+targetAir: true
+targetGround: true
+rotateSpeed: 4.5
+reloadTime: 60
+shots: 5
+inaccuracy: 18
+burstSpacing: 1.5
+powerUse: 3.55
+shootSound: spark
+range: 104
+requirements:
+[
+    lead/130
+    copper/60
+    titanium/20
+]
+shootType: 
+{
+    type: BasicBulletType
+    shootEffect: lightningShoot
+    backColor: a9d8ff
+    frontColor: ffffff
+    trailLength: 10
+    trailWidth: 1.5
+    width: 5
+    speed: 3
+    height: 10
+    damage: 15
+    trailColor: a9d8ff
+}
+category: turret

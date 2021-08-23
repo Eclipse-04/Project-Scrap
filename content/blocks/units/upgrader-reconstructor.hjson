@@ -1,0 +1,42 @@
+type: Reconstructor
+name: Upgrader Reconstuctor
+description: "Upgrade Units to the next Tier."
+health: 1200
+size: 3
+constructTime: 720
+requirements:
+[
+    copper/550
+    lead/350
+    titanium/75
+    silicon/125
+]
+upgrades:
+[
+    [mono, advanced-miner]
+    [flare, flame]
+    [risso, rissa]
+]
+
+consumes:
+{
+    items: {
+        items: [
+            {
+                item: titanium
+                amount: 30
+            },
+            {
+                item: lead
+                amount: 50
+            },
+            {
+                item: silicon
+                amount: 40
+            }
+        ]
+    }
+    power: 2.33
+}
+
+category: units

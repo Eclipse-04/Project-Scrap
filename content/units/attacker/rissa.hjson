@@ -1,0 +1,55 @@
+type: naval
+name: Rissa
+speed: 1.3
+drag: 0.13
+hitsize: 13
+health: 450
+accel: 0.4
+rotateSpeed: 3.8
+trailLength: 20
+rotateShooting: false
+armor: 4
+maxRange: 80
+weapons:
+[
+    {
+        name: rissa-missiles-mount
+        reload: 50
+        shots: 4
+        shotDelay: 4
+        x: 0
+        y: 5
+        rotate: true
+        ejectEffect: casing1
+        shootSound: missile;
+        bullet: {
+            type: MissileBulletType
+            width: 8
+            height: 8
+            shrinkY: 0
+            drag: 0.003
+            homingRange: 60
+            splashDamageRadius: 25
+            splashDamage: 14
+            lifetime: 65
+            frontColor: fff8e8
+            backColor: f9c27a
+            hitEffect: blastExplosion
+            despawnEffect: despawnEffect
+            weaveScale: 8
+            weaveMag: 2
+        }
+    }
+    {
+        type: RailBulletType
+        name: rissa-rail-gun
+        reload: 90
+        range: 80
+        x: 0
+        y: -5
+        mirror: false
+        rotate: true
+        length: 80
+        updateEffectSeg: 10
+    }
+]

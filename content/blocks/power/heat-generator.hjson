@@ -1,0 +1,59 @@
+type: SingleTypeGenerator
+size: 2
+health: 550
+requirements:
+[
+    copper/150
+    lead/120
+    silicon/60
+    titanium/25
+    graphite/45
+]
+hasItem: true
+hasLiquid: true
+hasPower: true
+consumes:
+{
+    items: {
+        items: [
+            coal/1
+        ]
+    }
+    liquid: {
+        liquid: slag
+        amount: 0.26
+    }
+}
+powerProduction: 2.3
+minItemEfficiency: 0.3
+minLiquidEfficiency: 0.2
+itemDuration: 60
+name: Heat Generator
+heatColor: ffffff00
+liquidCapacity: 50
+generateEffect: 
+{
+    type: MultiEffect
+    effects: [
+        {
+            type: WaveEffect
+            colorFrom: ffa166
+            colorTo: ffa166
+            lightColor: f0511d
+            sizeFrom: 5
+            sizeTo: 0
+            
+        }
+        {
+            type: ParticleEffect
+            colorFrom: ffa166
+            colorTo: ffa166
+            particles: 8
+            sizeFrom: 5
+            sizeTo: 0
+        }
+    ]
+}
+attribute: heat
+baseEfficiency: 1
+category: power
