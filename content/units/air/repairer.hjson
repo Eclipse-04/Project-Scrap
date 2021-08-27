@@ -1,0 +1,65 @@
+type: flying
+flying: true
+speed: 3.5
+accel: 0.08
+name: "Repair Drone"
+drag: 0.02
+desciption: "A Transport drone that can move very fast and carry a decent amount of items, has no AI and must be controlled by logistic"
+health: 100
+itemCapacity: 25
+engineSize: 0
+controller: RepairAI
+weapons:
+[
+    {
+        name: repairer-laser
+        x:0
+        y:0
+        mirror: false
+        reload: 20
+        rotate: false
+
+        bullet: {
+            type: LaserBoltBulletType
+            speed: 5
+            lifetime: 30
+            healPercent: 10
+            collidesTeam: true
+            backColor: 98ffa9
+            frontColor: ffffff
+            shootEffect: {
+                type: WaveEffect
+                colorFrom: 98ffa9
+                colorTo: 98ffa9
+                sizeFrom: 0
+                sizeTo: 8
+                strokeFrom: 4
+                strokeTo: 0
+                lifetime: 20
+                sides: 4
+            }
+            hitEffect: {
+                type: WaveEffect
+                colorFrom: 98ffa9
+                colorTo: 98ffa9
+                sizeFrom: 8
+                sizeTo: 0
+                strokeFrom: 4
+                strokeTo: 0
+                lifetime: 20
+                sides: 4
+            }
+            despawnEffect: {
+                type: WaveEffect
+                colorFrom: 98ffa9
+                colorTo: 98ffa9
+                sizeFrom: 8
+                sizeTo: 0
+                strokeFrom: 4
+                strokeTo: 0
+                lifetime: 20
+                sides: 4
+            }
+        }
+    }
+]

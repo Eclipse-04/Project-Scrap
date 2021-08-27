@@ -21,10 +21,10 @@ consumes:
     }
     liquid: {
         liquid: slag
-        amount: 0.26
+        amount: 0.1983333333333333
     }
 }
-powerProduction: 2.3
+powerProduction: 9.16
 minItemEfficiency: 0.3
 minLiquidEfficiency: 0.2
 itemDuration: 60

@@ -1,0 +1,32 @@
+type: LiquidTurret
+health: 85
+reloadTime: 10
+range: 72
+rotateSpeed: 5
+name: Steam
+shootEffect: shootLiquid
+recoilAmount: 0.1
+inaccuracy: 5
+liquidCapacity: 10
+ammoTypes: {
+  water: {
+    type: LiquidBulletType
+    liquid: water
+    damage: 0
+    lifetime: 60
+    orbSize: 2
+  }
+  oil: {
+    type: LiquidBulletType
+    liquid: oil
+    damage: 0
+    lifetime: 60
+    orbSize: 2
+  }
+}
+requirements:
+[
+    lead/35
+    copper/15
+]
+category: turret

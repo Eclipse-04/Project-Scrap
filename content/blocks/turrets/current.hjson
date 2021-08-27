@@ -26,7 +26,8 @@ shootType:
     backColor: a9d8ff
     frontColor: ffffff
     trailLength: 10
-    trailWidth: 1.5
+    status: shocked
+    trailWidth: 1.2
     width: 5
     speed: 3
     height: 10

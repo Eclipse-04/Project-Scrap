@@ -16,6 +16,7 @@ upgrades:
     [mono, advanced-miner]
     [flare, flame]
     [risso, rissa]
+    [copter-a, copter-b]
 ]
 
 consumes:

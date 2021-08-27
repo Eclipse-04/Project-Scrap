@@ -1,0 +1,5 @@
+type: Floor
+health: 1000
+name: green-floor
+placeablePlayer: false
+hasShadow: false
