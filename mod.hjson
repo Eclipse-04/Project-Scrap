@@ -1,7 +1,7 @@
-name: industrial
-displayName: Industrial
+name: ProjScrap
+displayName: ProjectScrap
 author: Eclipse
-description: My First v7 mod
-version: 0.1
+description: My first v7 mod
+version: 0.2
 minGameVersion: 129.2
 dependencies: [ ]
