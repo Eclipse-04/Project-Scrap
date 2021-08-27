@@ -1,1 +1,4 @@
 # Industrial : A Mindustry mod.
+Well, its a work in progress. It currently adds a few miscellaneous items, units, and its own reconstructers.
+Click on the releases tab to manually download, or download from the in-game mod browser. 
+It could be fun, ill leave the judgment of whether or not it is fun to you. If you find any issues, please open a issue.
