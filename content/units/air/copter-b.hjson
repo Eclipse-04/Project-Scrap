@@ -5,7 +5,7 @@ flying: true
 speed: 2.5
 armor: 1
 drag: 0.02
-hitSize: 3
+hitSize: 5
 itemCapacity: 70
 engineSize: 0
 rotateSpeed: 20
@@ -25,84 +25,62 @@ abilities:
 weapons:
 [
     {
-        name: fighter-missler
-        x: 4
-        y: 3
+        name: copter-b-fuse
+        x: 5
+        y: 6.75
         inaccuracy: 20
         shotDelay: 3.5
         shots: 2
         mirror: true
-        rotate: false
-        reload: 45
-        ejectEffect: {
-            type: WaveEffect
-            lifetime: 10
-            sizeFrom: 0
-            sizeTo: 10
-            strokeFrom: 6
-            strokeTo: 0
-
-        }
-
-        bullet: {
-            type: MissileBulletType
-            backColor: e58956
-            frontColor: ffd2ae
-            trailColor: e58956
-            trailLength: 7
-            trailWidth: 1
-            width: 3
-            height: 6
-            homingRange: 56
-            homingPower: 0.1
-            drag: -0.03
-            lifetime: 60
-            makeFire: true
-            puddles: 3
-            puddleRange: 1
-            puddleAmount: 10
-            puddleLiquid: slag
-            damage: 7
-            keepVelocity: false
-            maxRange: 180
-        }
-    }
-    {
-        name: fighter-missler
-        x: 4
-        y: 3
-        inaccuracy: 5
-        shotDelay: 3
-        shots: 3
-        mirror: true
+        range: 60
+        spread: 8
         rotate: false
         reload: 30
         ejectEffect: {
             type: WaveEffect
             lifetime: 10
             sizeFrom: 0
+            colorFrom: e58956
+            colorTo: e58956
             sizeTo: 10
             strokeFrom: 6
             strokeTo: 0
 
         }
+
         bullet: {
-            type: BasicBulletType
+            type: ShrapnelBulletType
             backColor: e58956
             frontColor: ffd2ae
-            trailColor: e58956
-            trailLength: 7
-            trailWidth: 1
-            width: 3
-            height: 6
+            width: 6
+            height: 64
+            lifetime: 20
+            makeFire: true
+            damage: 15
+            maxRange: 60
+        }
+    }
+    {
+        name: flame-thrower
+        x: 3
+        y: 10.5
+        inaccuracy: 0
+        shotDelay: 3
+        shots: 1
+        mirror: true
+        rotate: false
+        reload: 10
+        ejectEffect: none
+        bullet: {
+            type: FireBulletType
+            radius: 30
             lifetime: 70
             makeFire: true
             puddles: 3
             puddleRange: 1
-            puddleAmount: 10
-            puddleLiquid: slag
+            puddleAmount: 3
+            puddleLiquid: oil
             damage: 7
-            speed: 2.5
             maxRange: 180
         }
     }

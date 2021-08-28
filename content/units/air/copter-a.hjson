@@ -5,7 +5,7 @@ flying: true
 speed: 2.5
 armor: 1
 drag: 0.02
-hitSize: 3
+hitSize: 10
 itemCapacity: 70
 engineSize: 0
 rotateSpeed: 20
@@ -57,11 +57,6 @@ weapons:
             homingPower: 0.1
             drag: -0.03
             lifetime: 60
-            makeFire: true
-            puddles: 3
-            puddleRange: 1
-            puddleAmount: 10
-            puddleLiquid: slag
             damage: 7
             keepVelocity: false
             maxRange: 180
@@ -96,11 +91,6 @@ weapons:
             width: 3
             height: 6
             lifetime: 70
-            makeFire: true
-            puddles: 3
-            puddleRange: 1
-            puddleAmount: 10
-            puddleLiquid: slag
             damage: 7
             speed: 2.5
             maxRange: 180
