@@ -1,5 +1,5 @@
 type: flying
-name: "Advanced Miner"
+name: "Tres"
 description: "An advanced miner, upgraded version of mono. can cast health field rapidly."
 controller: MinerAI
 health: 220

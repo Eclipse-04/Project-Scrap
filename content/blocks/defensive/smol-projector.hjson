@@ -1,0 +1,32 @@
+type: ForceProjector
+category: effect
+health: 200
+name: "Small Force Projector"
+size: 2
+phaseUseTime: 480
+consumes:
+{
+    power: 1.7
+    items: {
+        items:
+        [
+          silicon/2
+        ]
+        booster: true
+        optional: true
+    }
+}
+phaseRadiusBoost: 40
+phaseShieldBoost: 100
+radius: 70
+shieldHealth: 250
+requirements:
+[
+    copper/80
+    silicon/30
+    graphite/45
+]
+cooldownNormal: 0.7
+cooldownLiquid: 1.1
+cooldownBrokenBase: 0.3
+details: hi

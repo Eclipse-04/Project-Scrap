@@ -1,25 +1,25 @@
 type: flying
-name: "Copter"
+name: "Gale"
 health: 300
 flying: true
 speed: 2.5
 armor: 1
 drag: 0.02
-hitSize: 5
+hitSize: 15
 itemCapacity: 70
 engineSize: 0
-rotateSpeed: 20
+rotateSpeed: 7
 circleTarget: true;
 accel: 0.2
-range: 150
+range: 48
 abilities: 
 [
     {
         type: ShieldRegenFieldAbility
-        amount: 7
-        reload: 50
+        amount: 10
+        reload: 60
         range: 60
-        max: 20
+        max: 50
     }
 ]
 weapons:
@@ -28,12 +28,11 @@ weapons:
         name: copter-b-fuse
         x: 5
         y: 6.75
-        inaccuracy: 20
-        shotDelay: 3.5
         shots: 2
         mirror: true
+        shootSound: shotgun
         range: 60
-        spread: 8
+        spread: 4
         rotate: false
         reload: 30
         ejectEffect: {
@@ -50,14 +49,14 @@ weapons:
 
         bullet: {
             type: ShrapnelBulletType
-            backColor: e58956
-            frontColor: ffd2ae
-            width: 6
-            height: 64
+            fromColor: e58956
+            toColor: e58956
+            width: 10
+            length: 50
             lifetime: 20
             makeFire: true
-            damage: 15
-            maxRange: 60
+            damage: 21
+            maxRange: 37
         }
     }
     {
@@ -65,23 +64,23 @@ weapons:
         x: 3
         y: 10.5
         inaccuracy: 0
-        shotDelay: 3
         shots: 1
         mirror: true
         rotate: false
-        reload: 10
+        reload: 20
+        shootSound: flame
         ejectEffect: none
         bullet: {
             type: FireBulletType
-            radius: 30
+            radius: 3.5
+            range: 30
+            speed: 3.5
             lifetime: 70
-            makeFire: true
-            puddles: 3
-            puddleRange: 1
-            puddleAmount: 3
-            puddleLiquid: oil
+            status: burning
+            makefire: true
             damage: 7
-            maxRange: 180
+            maxRange: 37
+            fireTrailChance: 0.03
         }
     }
 ]
