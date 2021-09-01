@@ -40,7 +40,27 @@ const supa = extend(UnitType, "sup-a", {
 			"industrial-sup-a-rotator",
 			unit.x + Angles.trnsx(unit.rotation, 5.75),
 			unit.y + Angles.trnsy(unit.rotation, 5.75),
+			Time.time * 15);
+		Draw.rect(
+			"industrial-sup-a-rotator",
+			unit.x + Angles.trnsx(unit.rotation, -6.75),
+			unit.y + Angles.trnsy(unit.rotation, -6.75),
+			Time.time * 15);
+		Draw.rect(
+			"industrial-sup-a-rotator",
+			unit.x + Angles.trnsx(unit.rotation, 5.75),
+			unit.y + Angles.trnsy(unit.rotation, 5.75),
 			Time.time * -15);
+		Draw.rect(
+			"industrial-sup-a-top",
+			unit.x + Angles.trnsx(unit.rotation, 5.75),
+			unit.y + Angles.trnsy(unit.rotation, 5.75),
+			unit.rotation - 90);
+		Draw.rect(
+			"industrial-sup-a-top",
+			unit.x + Angles.trnsx(unit.rotation, -6.75),
+			unit.y + Angles.trnsy(unit.rotation, -6.75),
+			unit.rotation - 90);
 	}
 });
 const coptera = extend(UnitType, "copter-a", {
@@ -104,6 +124,7 @@ const copterb = extend(UnitType, "copter-b", {
 	}
 });
 drone.constructor = () => extend(UnitEntity, {});
+supa.constructor = () => extend(UnitEntity, {});
 repairer.constructor = () => extend(UnitEntity, {});
 coptera.constructor = () => extend(UnitEntity, {});
 copterb.constructor = () => extend(UnitEntity, {});
