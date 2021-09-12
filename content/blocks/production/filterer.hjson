@@ -1,0 +1,22 @@
+type: GenericCrafter
+outputItem: scrap/2
+health: 150
+size: 2
+outputLiquid: water/18
+consumes:
+{
+    power: 2.5
+    liquid: {
+        liquid: water
+        amount: 0.3
+    }
+}
+name: Filterer
+craftTime: 30
+requirements:
+[
+    copper/25
+    graphite/35
+    metaglass/15
+]
+drawer: drawRotator

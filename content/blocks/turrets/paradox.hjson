@@ -1,0 +1,20 @@
+type: TractorBeamTurret
+name: Paradox
+desciption: Shoot a more powerful Tractor beam.
+laserWidth: 1
+scaledForce: 10
+status: slow
+size: 3
+force: 30
+targetGround: false
+damage: 0.7
+range: 384
+requirements:
+[
+    silicon/250
+    titanium/195
+    plastanium/45
+    thorium/25
+    lead/35
+]
+category: turret

@@ -28,41 +28,6 @@ const repairer = extend(UnitType, "repairer", {
 			Time.time * -15);
 	}
 });
-const supa = extend(UnitType, "sup-a", {
-	draw(unit) {
-		this.super$draw(unit);
-		Draw.rect(
-			"industrial-sup-a-rotator",
-			unit.x + Angles.trnsx(unit.rotation, -6.75),
-			unit.y + Angles.trnsy(unit.rotation, -6.75),
-			Time.time * -15);
-		Draw.rect(
-			"industrial-sup-a-rotator",
-			unit.x + Angles.trnsx(unit.rotation, 5.75),
-			unit.y + Angles.trnsy(unit.rotation, 5.75),
-			Time.time * 15);
-		Draw.rect(
-			"industrial-sup-a-rotator",
-			unit.x + Angles.trnsx(unit.rotation, -6.75),
-			unit.y + Angles.trnsy(unit.rotation, -6.75),
-			Time.time * 15);
-		Draw.rect(
-			"industrial-sup-a-rotator",
-			unit.x + Angles.trnsx(unit.rotation, 5.75),
-			unit.y + Angles.trnsy(unit.rotation, 5.75),
-			Time.time * -15);
-		Draw.rect(
-			"industrial-sup-a-top",
-			unit.x + Angles.trnsx(unit.rotation, 5.75),
-			unit.y + Angles.trnsy(unit.rotation, 5.75),
-			unit.rotation - 90);
-		Draw.rect(
-			"industrial-sup-a-top",
-			unit.x + Angles.trnsx(unit.rotation, -6.75),
-			unit.y + Angles.trnsy(unit.rotation, -6.75),
-			unit.rotation - 90);
-	}
-});
 const coptera = extend(UnitType, "copter-a", {
 	draw(unit) {
 		this.super$draw(unit);
@@ -123,10 +88,45 @@ const copterb = extend(UnitType, "copter-b", {
 			unit.rotation - 90);
 	}
 });
+const copterc = extend(UnitType, "copter-c", {
+	draw(unit) {
+		this.super$draw(unit);
+		Draw.rect(
+			"industrial-copter-c-rotator",
+			unit.x + Angles.trnsx(unit.rotation, 7.5),
+			unit.y + Angles.trnsy(unit.rotation, 7.5),
+			Time.time * -15);
+		Draw.rect(
+			"industrial-copter-c-rotator",
+			unit.x + Angles.trnsx(unit.rotation, 7.5),
+			unit.y + Angles.trnsy(unit.rotation, 7.5),
+			Time.time * 15);
+		Draw.rect(
+			"industrial-copter-c-top",
+			unit.x + Angles.trnsx(unit.rotation, 7.5),
+			unit.y + Angles.trnsy(unit.rotation, 7.5),
+			unit.rotation - 90);
+		Draw.rect(
+			"industrial-sup-a-rotator",
+			unit.x + Angles.trnsx(unit.rotation, -12.5),
+			unit.y + Angles.trnsy(unit.rotation, -12.5),
+			Time.time * -15);
+		Draw.rect(
+			"industrial-sup-a-rotator",
+			unit.x + Angles.trnsx(unit.rotation, -12.5),
+			unit.y + Angles.trnsy(unit.rotation, -12.5),
+			Time.time * 15);
+		Draw.rect(
+			"industrial-sup-a-top",
+			unit.x + Angles.trnsx(unit.rotation, -12.5),
+			unit.y + Angles.trnsy(unit.rotation, -12.5),
+			unit.rotation - 90);
+	}
+});
 drone.constructor = () => extend(UnitEntity, {});
-supa.constructor = () => extend(UnitEntity, {});
 repairer.constructor = () => extend(UnitEntity, {});
 coptera.constructor = () => extend(UnitEntity, {});
 copterb.constructor = () => extend(UnitEntity, {});
+copterc.constructor = () => extend(UnitEntity, {});
 // @Author Eschatologue 
 //extracted from Eschatologue/Heavy-Armaments-Industries, thx for giving me code

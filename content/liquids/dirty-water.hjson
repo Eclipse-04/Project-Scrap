@@ -1,0 +1,7 @@
+type: Liquid
+heatCapacity: 0.6
+color: 3e6065ff
+barColor: 3e6065ff
+effect: wet
+research: water
+name: Dirty Water

@@ -1,0 +1,9 @@
+type: Floor
+status: freezing
+name: Cryofluid
+speedMultiplier: 0.4
+drownTime: 240
+statusDuration: 360
+liquidDrop: cryofluid
+isLiquid: true
+cacheLayer: water
