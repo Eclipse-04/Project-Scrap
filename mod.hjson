@@ -2,6 +2,6 @@ name: industrial
 displayName: Project Scrap
 author: Eclipse
 description: My First v7 mod
-version: 0.2.1 beta
+version: 0.2.2
 minGameVersion: 129.2
 dependencies: [ ]
