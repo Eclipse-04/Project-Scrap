@@ -5,7 +5,6 @@ category: crafting
 size: 3
 liquidCapacity: 50
 hasLiquids: true
-type: GenericCrafter
 requirements:
 [
     graphite/75
