@@ -8,7 +8,7 @@ rotateSpeed: 15
 itemCapacity: 120
 hitSize: 16
 accel: 0.1
-range: 130
+range: 100
 commandLimit: 3
 health: 560
 buildSpeed: 1.5
@@ -86,7 +86,7 @@ weapons:
             lifetime: 60
             damage: 10
             keepVelocity: false
-            maxRange: 180
+            maxRange: 120
         }
     }
 ]

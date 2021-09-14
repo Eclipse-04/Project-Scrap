@@ -1,6 +1,6 @@
 type: MessageBlock
 name: Announce
-desciption: A bigger message that can contains a lot more text
+desciption: "A bigger message that can contains a lot more text"
 requirements:
 [
     graphite/25

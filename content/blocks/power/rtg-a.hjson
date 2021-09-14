@@ -1,0 +1,16 @@
+type: DecayGenerator
+name: Large RTG generator
+desciption: A bigger RTG generator, consume radioactive material to generate power. More effective than a RTG generator but consume a little more resource
+size: 3
+category: power
+health: 1300
+requirements:
+[
+    silicon/140
+    graphite/90
+    plastanium/50
+    phase-fabric/25
+    surge-alloy/45
+]
+powerProduction: 13.5
+itemDuration: 600

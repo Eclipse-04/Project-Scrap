@@ -2,16 +2,18 @@ type: GenericCrafter
 outputItem: scrap/2
 health: 150
 size: 2
-outputLiquid: water/18
+outputLiquid: water/9
 consumes:
 {
     power: 2.5
     liquid: {
-        liquid: water
+        liquid: dirty-water
         amount: 0.3
     }
 }
 name: Filterer
+liquidCapacity: 50
+itemCapacity: 30
 craftTime: 30
 requirements:
 [

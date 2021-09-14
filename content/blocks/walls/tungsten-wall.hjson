@@ -1,0 +1,7 @@
+type: Wall
+name: Tungsten Wall
+health: 500
+requirements:
+[
+    tungsten/6
+]
