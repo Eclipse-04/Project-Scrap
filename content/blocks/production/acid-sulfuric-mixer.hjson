@@ -3,7 +3,6 @@ details: "Hmm...yes, Chemistry"
 category: crafting
 size: 2
 liquidCapacity: 30
-type: LiquidConverter
 hasLiquids: true
 requirements:
 [
