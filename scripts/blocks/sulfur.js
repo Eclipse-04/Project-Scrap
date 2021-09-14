@@ -7,7 +7,7 @@ const SulfurExtractor = extend(GenericCrafter, "sulfur-extractor", {
 		this.GlassRegion = Core.atlas.find("industrial-sulfur-extractor-top");
 	}
 });
-refiner.buildType = () => extend(GenericCrafter.GenericCrafterBuild, refiner, {
+SulfurExtractor.buildType = () => extend(GenericCrafter.GenericCrafterBuild, refiner, {
 	draw(tile){
 		let inputLiquid = SulfurExtractor.consumes.get(ConsumeType.liquid).liquid;
 
@@ -32,7 +32,7 @@ const AcidMixer = extend(GenericCrafter, "acid-sulfuric-mixer", {
 		this.GlassRegion = Core.atlas.find("industrial-acid-sulfuric-extractor-top");
 	}
 });
-refiner.buildType = () => extend(GenericCrafter.GenericCrafterBuild, refiner, {
+AcidMixer.buildType = () => extend(GenericCrafter.GenericCrafterBuild, refiner, {
 	draw(tile){
 		let inputLiquid = AcidMixer.consumes.get(ConsumeType.liquid).liquid;
 
