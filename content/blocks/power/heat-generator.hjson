@@ -1,4 +1,4 @@
-type: SingleTypeGenerator
+name: Heat generator
 size: 2
 health: 550
 requirements:
@@ -9,26 +9,15 @@ requirements:
     titanium/25
     graphite/45
 ]
-hasItem: true
-hasLiquid: true
 hasPower: true
-consumes:
-{
-    items: {
-        items: [
-            coal/1
-        ]
-    }
-    liquid: {
-        liquid: slag
-        amount: 0.1983333333333333
-    }
-}
+hasItems: false
+hasLiquids: true
 powerProduction: 9.16
-minItemEfficiency: 0.3
-minLiquidEfficiency: 0.2
-itemDuration: 60
-name: Heat Generator
+defaults:false
+minItemEfficiency: 1000
+maxLiquidGenerate: 1
+minLiquidEfficiency: 1
+randomlyExplode:false
 heatColor: ffffff00
 liquidCapacity: 50
 generateEffect: 
@@ -55,5 +44,4 @@ generateEffect:
     ]
 }
 attribute: heat
-baseEfficiency: 1
 category: power
