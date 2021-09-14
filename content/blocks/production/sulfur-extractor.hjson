@@ -1,0 +1,26 @@
+name: Sulfur Extractor
+desciption: "Process oil with water to make sulfur"
+size: 3
+requirements:
+[
+    graphite/75
+    silicon/90
+    titanium/95
+    plastanium/35
+]
+consumes:
+{
+    liquid:
+    [
+        {
+            liquid: oil
+            amount: 0.6
+        }
+        {
+            liquid: water
+            amount: 0.1
+        }
+    ]
+    power: 7
+}
+outputItem: sunfur/4
