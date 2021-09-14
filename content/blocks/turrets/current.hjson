@@ -1,5 +1,5 @@
 type: PowerTurret
-descirption: "Shoot Electric bullet"
+desciption: "Shoot Electric bullet"
 size:2
 name: "Current"
 health: 550
