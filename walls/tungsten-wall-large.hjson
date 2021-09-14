@@ -1,8 +1,0 @@
-type: Wall
-name: Large Tungsten Wall
-health: 2000
-requirements:
-[
-    tungsten/24
-]
-size: 2

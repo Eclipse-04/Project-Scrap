@@ -1,8 +1,0 @@
-type: Wall
-name: Large Steel Wall
-health: 2400
-requirements:
-[
-    steel/24
-]
-size: 2
