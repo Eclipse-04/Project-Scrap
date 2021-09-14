@@ -1,0 +1,23 @@
+name: Steel Smelter
+size: 2
+health: 550
+desciption: "Smelt Iron and mix it with coal for Steel"
+requirements:
+[
+    copper/25
+    lead/35
+    graphite/20
+]
+craftTime: 180
+consumes:
+{
+    power: 2
+    items: {
+        items: [
+            iron/3
+            coal/2
+        ]
+    }
+}
+category: crafting
+outputItem: steel/3
