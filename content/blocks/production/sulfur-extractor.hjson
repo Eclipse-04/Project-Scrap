@@ -3,6 +3,8 @@ desciption: "Process oil to make sulfur"
 details: "Due to hjson limiting, i can't add water input to this thing"
 category: crafting
 size: 3
+liquidCapacity: 50
+hasLiquids: true
 requirements:
 [
     graphite/75
