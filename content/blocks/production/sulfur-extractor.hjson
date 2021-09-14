@@ -1,5 +1,6 @@
 name: Sulfur Extractor
-desciption: "Process oil with water to make sulfur"
+desciption: "Process oil to make sulfur"
+details: "Due to hjson limiting, i can't add water input to this thing"
 size: 3
 requirements:
 [
@@ -11,16 +12,10 @@ requirements:
 consumes:
 {
     liquid:
-    [
         {
             liquid: oil
             amount: 0.6
         }
-        {
-            liquid: water
-            amount: 0.1
-        }
-    ]
     power: 7
 }
 outputItem: sunfur/4
