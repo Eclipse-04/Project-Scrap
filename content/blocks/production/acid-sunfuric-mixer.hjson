@@ -1,0 +1,29 @@
+name: Acid Sunfuric Mixer
+details: "Hmm...yes, Chemistry"
+category: crafting
+size: 2
+liquidCapacity: 30
+type: LiquidConverter
+hasLiquid: true
+requirements:
+[
+    lead/35
+    plastanium/15
+    titanium/25
+    silicon/45
+]
+consumes:
+{
+    power: 2.2
+    liquid: {
+        liquid: water
+        amount: 0.2
+    }
+    items: {
+        items: [
+            sulfur/2
+        ]
+    }
+}
+craftTime: 30
+outputLiquid: acid-sunfuric/24
