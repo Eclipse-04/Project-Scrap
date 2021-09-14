@@ -1,7 +1,8 @@
-type: Wall
+type: Block
 name: Tungsten Wall
 health: 500
 requirements:
 [
     tungsten/6
 ]
+category: defense

@@ -1,7 +1,8 @@
-type: Wall
+type: Block
 name: Steel Wall
 health: 600
 requirements:
 [
     steel/6
 ]
+category: defense

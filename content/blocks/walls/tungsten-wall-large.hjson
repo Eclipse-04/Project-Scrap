@@ -1,4 +1,4 @@
-type: Wall
+type: Block
 name: Large Tungsten Wall
 health: 2000
 requirements:
@@ -6,3 +6,4 @@ requirements:
     tungsten/24
 ]
 size: 2
+category: defense
