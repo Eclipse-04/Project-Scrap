@@ -1,6 +1,6 @@
 type: TractorBeamTurret
 name: Paradox
-desciption: Shoot a more powerful Tractor beam.
+desciption: "Shoot a more powerful Tractor beam."
 laserWidth: 1
 scaledForce: 10
 status: slow
