@@ -4,7 +4,7 @@ category: crafting
 size: 2
 liquidCapacity: 30
 type: LiquidConverter
-hasLiquid: true
+hasLiquids: true
 requirements:
 [
     lead/35
