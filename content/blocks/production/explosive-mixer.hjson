@@ -6,6 +6,7 @@ hasPower: true
 craftTime: 60
 size: 2
 name: Explosive Mixer
+health: 330
 consumes:
 {
     power: 1.5
