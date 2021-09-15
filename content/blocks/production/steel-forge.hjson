@@ -1,6 +1,7 @@
 size: 3
 hasPower: true
 name: Steel Forge
+health: 1200
 hasItems: true
 consumes:
 {
