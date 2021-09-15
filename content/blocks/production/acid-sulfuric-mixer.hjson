@@ -6,10 +6,11 @@ liquidCapacity: 30
 hasLiquids: true
 requirements:
 [
-    lead/35
+    tungsten/35
     plastanium/15
     titanium/25
     silicon/45
+    steel/35
 ]
 consumes:
 {
