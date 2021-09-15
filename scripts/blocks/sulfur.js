@@ -26,10 +26,10 @@ SulfurExtractor.buildType = () => extend(GenericCrafter.GenericCrafterBuild, Sul
 const AcidMixer = extend(GenericCrafter, "acid-sulfuric-mixer", {
 	load(){
 		this.super$load();
-		this.region = Core.atlas.find("industrial-acid-sulfuric-extractor");
-		this.liquidRegion = Core.atlas.find("industrial-acid-sulfuric-extractor-liquid");
-		this.BottomRegion = Core.atlas.find("industrial-acid-sulfuric-extractor-bottom");
-		this.GlassRegion = Core.atlas.find("industrial-acid-sulfuric-extractor-top");
+		this.region = Core.atlas.find("industrial-acid-sulfuric-mixer");
+		this.liquidRegion = Core.atlas.find("industrial-acid-sulfuric-mixer-liquid");
+		this.BottomRegion = Core.atlas.find("industrial-acid-sulfuric-mixer-bottom");
+		this.GlassRegion = Core.atlas.find("industrial-acid-sulfuric-mixer-top");
 	}
 });
 AcidMixer.buildType = () => extend(GenericCrafter.GenericCrafterBuild, AcidMixer, {
