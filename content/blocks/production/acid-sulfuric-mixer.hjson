@@ -24,5 +24,5 @@ consumes:
         ]
     }
 }
-craftTime: 30
-outputLiquid: acid-sulfuric/24
+craftTime: 10
+outputLiquid: acid-sulfuric/8
