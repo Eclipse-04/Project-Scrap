@@ -1,5 +1,6 @@
 type: Drill
 hardnessDrillMultiplier: 30
+liquidBoostIntensity: 0
 tier: 4
 drillTime: 23
 size: 3
