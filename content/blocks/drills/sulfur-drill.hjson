@@ -2,7 +2,7 @@ type: Drill
 hardnessDrillMultiplier: 30
 liquidBoostIntensity: 1
 tier: 4
-drillTime: 23
+drillTime: 30
 size: 3
 heath: 770
 liquidCapacity: 70
