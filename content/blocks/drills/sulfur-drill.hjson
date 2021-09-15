@@ -2,6 +2,9 @@ type: Drill
 hardnessDrillMultiplier: 30
 tier: 4
 drillTime: 23
+size: 3
+heath: 770
+liquidCapacity: 70
 rotateSpeed: 1.3
 requirements:
 [
