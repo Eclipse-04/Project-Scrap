@@ -1,0 +1,42 @@
+size: 3
+hasPower: true
+name: Steel Forge
+hasItems: true
+consumes:
+{
+  power: 11
+  items: {
+    items: [
+      coal/7
+      iron/6
+      pyratite/1
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.3
+  }
+}
+craftEffect:
+{
+    type: ParticleEffect
+    region: industrial-diamond
+    colorFrom: ffffff
+    colorTo: ffffff
+    particles: 12
+    length: 20
+    lifetime: 25
+}
+craftTime: 120
+baseEfficiency: 1
+maxBoost: 4.5
+outputItem: steel/6
+requirements:
+[
+    tungsten/45
+    steel/35
+    silicon/95
+    metaglass/35
+    plastanium/35
+]
+category: crafting
