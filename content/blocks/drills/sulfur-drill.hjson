@@ -1,0 +1,21 @@
+type: Drill
+hardnessDrillMultiplier: 30
+tier: 4
+drillTime: 23
+rotateSpeed: 1.3
+requirements:
+[
+    metaglass/35
+    plastanium/55
+    silicon/25
+    copper/45
+]
+name: Sunfuric Acid Drill
+consumes:
+{
+    power: 0.15
+    liquid: {
+        liquid: acid-sulfuric
+        amount: 0.3
+    }
+}
