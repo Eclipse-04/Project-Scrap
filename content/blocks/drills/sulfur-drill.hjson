@@ -11,7 +11,8 @@ requirements:
     metaglass/35
     plastanium/55
     silicon/25
-    copper/45
+    tungsten/45
+    steel/25
 ]
 name: Sunfuric Acid Drill
 consumes:
