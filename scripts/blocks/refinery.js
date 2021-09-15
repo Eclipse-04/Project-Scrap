@@ -6,3 +6,5 @@ const smolSteel = extend( GenericCrafter, "steel-smelter", {});
 smolSteel.drawer = new DrawSmelter();
 const bigSteel = extend( AttributeCrafter, "steel-forge", {});
 bigSteel.drawer = new DrawSmelter();
+const explo = extend( AttributeCrafter, "explosive-mixer", {});
+explo.drawer = new DrawRotator();
