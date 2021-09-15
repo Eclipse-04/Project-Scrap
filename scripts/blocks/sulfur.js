@@ -38,8 +38,8 @@ AcidMixer.buildType = () => extend(GenericCrafter.GenericCrafterBuild, AcidMixer
 
 		Draw.rect(AcidMixer.BottomRegion, this.x, this.y, 0);
 
-		Draw.color(Liquids.oil.color);
-		Draw.alpha(this.liquids.get(inputLiquid) / AcidMixer.liquidCapacity);
+		Draw.color(Color.valueOf("88bdbd"));
+		Draw.alpha(this.liquids.get(AcidMixer.outputLiquid.liquid) / AcidMixer.liquidCapacity);
 		Draw.rect(AcidMixer.liquidRegion, this.x, this.y);
 
 		Draw.alpha(1);
