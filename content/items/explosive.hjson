@@ -1,0 +1,5 @@
+type: Item
+explosiveness: 3.6
+name: Explodsive
+desciption: "Highly Explosiveness"
+flammability: 0.8
