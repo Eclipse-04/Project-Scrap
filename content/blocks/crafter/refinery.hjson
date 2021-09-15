@@ -2,6 +2,7 @@ desciption: "Refine Scrap into a better, more durable metal"
 craftEffect: steam
 hasItems: true
 hasLiquids: true
+health: 550
 hasPower: true
 craftTime: 45
 size: 2
