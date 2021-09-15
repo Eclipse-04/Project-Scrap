@@ -18,7 +18,7 @@ requirements:
 name: Sunfuric Acid Drill
 consumes:
 {
-    power: 0.15
+    power: 1.5
     liquid: {
         liquid: acid-sulfuric
         amount: 0.3
