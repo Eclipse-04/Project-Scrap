@@ -44,6 +44,7 @@ ammoTypes:
         damage: 950
         pierceDamageFactor: 0.9
         length: 600
+        type: RailBulletType
         updateEffectSeg: 12
     }
     industrial-tungsten: {
@@ -71,6 +72,7 @@ ammoTypes:
         pierceDamageFactor: 0.7
         length: 600
         updateEffectSeg: 12
+        type: RailBulletType
     }
     industrial-steel: {
         pierceEffect: {
@@ -96,6 +98,7 @@ ammoTypes:
         damage: 750
         pierceDamageFactor: 1
         length: 600
+        type: RailBulletType
         updateEffectSeg: 12
     }
 }
