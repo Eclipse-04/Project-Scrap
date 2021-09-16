@@ -1,6 +1,6 @@
 type: DecayGenerator
 name: Large RTG generator
-desciption: A bigger RTG generator, consume radioactive material to generate power. More effective than a RTG generator but consume a little more resource
+desciption: "A bigger RTG generator, consume radioactive material to generate power. More effective than a RTG generator but consume a little more resource\nRequire extra water"
 size: 3
 category: power
 health: 1300
@@ -14,3 +14,9 @@ requirements:
 ]
 powerProduction: 20.5
 itemDuration: 600
+consumes: {
+    liquid: {
+    liquid: water
+    amount: 0.3
+    }
+}
