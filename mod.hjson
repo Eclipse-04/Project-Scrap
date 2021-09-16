@@ -4,6 +4,4 @@ author: Eclipse
 description: My First v7 mod
 version: 0.2.3
 minGameVersion: 129.2
-dependencies: [
-younggam/multi-lib
-]
+dependencies: ["multi-lib"]
