@@ -22,3 +22,4 @@ requirements:
     metaglass/15
 ]
 drawer: drawRotator
+category: crafting
