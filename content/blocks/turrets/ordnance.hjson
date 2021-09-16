@@ -1,0 +1,100 @@
+type: ItemTurret
+health: 2400
+requirements:
+[
+    tungsten/330
+    steel/140
+    surge-alloy/90
+    plastanium/180
+    silicon/50
+    titanium/220
+]
+size: 4
+reloadTime: 180
+range: 600
+shootEffect: instShoot
+recoilAmount: 4
+rotateSpeed: 10
+desciption: "Shoot a strong, piercing deadly rail"
+name: Ordnance
+ammoTypes:
+{
+    surgeAlloy: {
+        pierceEffect: {
+            particles: 1
+            length: 0
+            lifetime: 30
+            sizeFrom: 16
+            region: industrial-star
+            colorFrom: f2e878
+            colorTo: f2e878
+        }
+        updateEffect: {
+            type: ParticleEffect
+            particles: 1
+            lifetime: 40
+            length: 0
+            sizeFrom: 16
+            sizeTo: 0
+            colorFrom: f2e878
+            colorTo: f2e878
+            region: industrial-point-trail
+        }
+        damage: 950
+        pierceDamageFactor: 0.9
+        length: 600
+        updateEffectSeg: 12
+    }
+    industrial-tungsten: {
+        pierceEffect: {
+            particles: 1
+            length: 0
+            lifetime: 30
+            sizeFrom: 16
+            region: industrial-star
+            colorFrom: 7ddba6
+            colorTo: 7ddba6
+        }
+        updateEffect: {
+            type: ParticleEffect
+            particles: 1
+            lifetime: 40
+            length: 0
+            sizeFrom: 16
+            sizeTo: 0
+            colorFrom: 7ddba6
+            region: industrial-point-trail
+            colorTo: 7ddba6
+        }
+        damage: 655
+        pierceDamageFactor: 0.7
+        length: 600
+        updateEffectSeg: 12
+    }
+    industrial-steel: {
+        pierceEffect: {
+            particles: 1
+            length: 0
+            lifetime: 30
+            sizeFrom: 16
+            region: industrial-star
+            colorFrom: 848996
+            colorTo: 848996
+        }
+        updateEffect: {
+            type: ParticleEffect
+            particles: 1
+            lifetime: 40
+            length: 0
+            sizeFrom: 16
+            sizeTo: 0
+            region: industrial-point-trail
+            colorFrom: 848996
+            colorTo: 848996
+        }
+        damage: 750
+        pierceDamageFactor: 1
+        length: 600
+        updateEffectSeg: 12
+    }
+}
