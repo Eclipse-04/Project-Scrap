@@ -20,7 +20,7 @@ desciption: "Shoot a strong, piercing deadly rail"
 name: Ordnance
 ammoTypes:
 {
-    surgeAlloy: {
+    surge-alloy: {
         pierceEffect: {
             particles: 1
             length: 0
