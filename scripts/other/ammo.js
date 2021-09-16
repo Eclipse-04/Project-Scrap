@@ -24,6 +24,3 @@ const pyraAmmo = extendContent(BasicBulletType,5,12,"shell",{
     status: burning,
     frontColor: Color.valueOf("f8ad42")
 })
-module.exports = {
-    
-}
