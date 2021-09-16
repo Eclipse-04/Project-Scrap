@@ -6,9 +6,9 @@ const standardAmmo = extendContent(BasicBulletType,5,12,"shell",{
     height: 8,
     trailLength: 8,
     trailWidth: 2,
-    trailColor: f9c27a,
-    backColor: f9c27a,
-    frontColor: fff8e8
+    trailColor: Color.valueOf("f9c27a"),
+    backColor: Color.valueOf("f9c27a"),
+    frontColor: Color.valueOf("fff8e8"),
 })
 
 const pyraAmmo = extendContent(BasicBulletType,5,12,"shell",{
@@ -18,11 +18,11 @@ const pyraAmmo = extendContent(BasicBulletType,5,12,"shell",{
     height: 8,
     trailLength: 8,
     trailWidth: 2,
-    trailColor: f68021,
-    backColor: f68021,
+    trailColor: Color.valueOf("f68021"),
+    backColor: Color.valueOf("f68021"),
     makeFire: true,
     status: burning,
-    frontColor: f8ad42
+    frontColor: Color.valueOf("f8ad42")
 })
 module.exports = {
     
