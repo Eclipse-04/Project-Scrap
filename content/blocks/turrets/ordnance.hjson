@@ -1,5 +1,6 @@
 type: ItemTurret
 health: 2400
+category: turret
 requirements:
 [
     tungsten/330
