@@ -1,6 +1,6 @@
 type: ItemTurret
 health: 2400
-shootSound = railgun
+shootSound: railgun
 category: turret
 requirements:
 [
