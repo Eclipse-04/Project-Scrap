@@ -1,4 +1,4 @@
-desciption: "Mix and craft sulfur,coal and wat into explosive"
+desciption: "Mix and craft sulfur,coal and water into explosive"
 craftEffect: steam
 hasItems: true
 hasLiquids: true
