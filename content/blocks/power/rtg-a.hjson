@@ -12,5 +12,5 @@ requirements:
     phase-fabric/25
     surge-alloy/45
 ]
-powerProduction: 13.5
+powerProduction: 20.5
 itemDuration: 600
