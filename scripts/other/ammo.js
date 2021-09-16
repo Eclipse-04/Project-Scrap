@@ -1,5 +1,5 @@
 //a-aa, s-stop i'm naked
-//no wtf?
+//yo wtf?
 const standardAmmo = extendContent(BasicBulletType,5,12,"shell",{
     knockback: 0.24,
     lifetime: 90,
