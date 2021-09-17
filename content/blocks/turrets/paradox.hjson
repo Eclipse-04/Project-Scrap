@@ -18,3 +18,5 @@ requirements:
     lead/35
 ]
 category: turret
+consumes: {
+    power: 7
