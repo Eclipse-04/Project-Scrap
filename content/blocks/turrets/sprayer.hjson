@@ -1,10 +1,10 @@
 type: LiquidTurret
 health: 1950
-reloadTime: 10
+reloadTime: 3
 desciption: "Spray liquid instead of shooting in a straight line"
 range: 128
 rotateSpeed: 5
-shots: 4
+shots: 2
 size: 3
 name: Spray
 shootEffect: shootLiquid
