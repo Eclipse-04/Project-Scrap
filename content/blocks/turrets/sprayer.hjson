@@ -42,7 +42,7 @@ ammoTypes:
         drag: 0.002
         orbSize: 4
     }
-    sulfuric-acid:
+    acid-sulfuric:
     {
         type: LiquidBulletType
         liquid: sulfuric-acid
