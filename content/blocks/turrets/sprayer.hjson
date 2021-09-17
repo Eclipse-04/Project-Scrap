@@ -45,7 +45,7 @@ ammoTypes:
     acid-sulfuric:
     {
         type: LiquidBulletType
-        liquid: sulfuric-acid
+        liquid: acid-sulfuric
         damage: 4
         lifetime: 60
         shootEffect: shootLiquid
