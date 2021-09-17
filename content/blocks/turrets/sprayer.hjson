@@ -72,10 +72,10 @@ ammoTypes:
         drag: 0.002
         orbSize: 4
     }
-    cryo-fluid:
+    cryofluid:
     {
         type: LiquidBulletType
-        liquid: cryo-fluid
+        liquid: cryofluid
         damage: 0.7
         lifetime: 60
         shootEffect: shootLiquid
