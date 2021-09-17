@@ -1,0 +1,16 @@
+name: Ammo Manufacturer
+desciption: "Manufacture multiple ammo"
+itemCapacity: 40
+size: 3
+health: 750
+craftEffect: pulverizeMedium
+dumpToggle: false
+category: crafting
+requirements:
+[
+    tungsten/120
+    steel/55
+    copper/90
+    titanium/20
+    graphite/55
+]
