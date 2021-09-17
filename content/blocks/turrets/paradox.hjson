@@ -20,3 +20,4 @@ requirements:
 category: turret
 consumes: {
     power: 7
+}
