@@ -2,7 +2,7 @@ type: LiquidTurret
 health: 1950
 reloadTime: 10
 desciption: "Spray liquid instead of shooting in a straight line"
-range: 180
+range: 128
 rotateSpeed: 5
 shots: 4
 size: 3
