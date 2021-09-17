@@ -1,0 +1,5 @@
+type: Item
+flammability: 0.3
+color: 848996
+name: Standard Bullet
+desciption: "A cheap and weak bullet"
