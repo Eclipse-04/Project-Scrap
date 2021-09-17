@@ -5,7 +5,7 @@ desciption: "Spray liquid instead of shooting in a straight line"
 range: 180
 rotateSpeed: 5
 shots: 4
-name: Steam
+name: Spray
 shootEffect: shootLiquid
 recoilAmount: 0.1
 inaccuracy: 15
