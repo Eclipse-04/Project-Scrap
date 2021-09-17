@@ -1,0 +1,98 @@
+type: LiquidTurret
+health: 1950
+reloadTime: 10
+desciption: "Spray liquid instead of shooting in a straight line"
+range: 180
+rotateSpeed: 5
+shots: 4
+name: Steam
+shootEffect: shootLiquid
+recoilAmount: 0.1
+inaccuracy: 15
+liquidCapacity: 100
+ammoTypes:
+{
+    water:
+    {
+        type: LiquidBulletType
+        liquid: water
+        damage: 0.3
+        lifetime: 60
+        shootEffect: shootLiquid
+        speed: 4.5
+        knockback: 1.5
+        puddleSize: 10
+        ammoMultiplier: 0.7
+        statusDuration: 240
+        drag: 0.002
+        orbSize: 4
+    }
+    oil:
+    {
+        type: LiquidBulletType
+        liquid: oil
+        damage: 0.3
+        lifetime: 60
+        shootEffect: shootLiquid
+        speed: 4.5
+        knockback: 1.5
+        puddleSize: 10
+        ammoMultiplier: 0.7
+        statusDuration: 240
+        drag: 0.002
+        orbSize: 4
+    }
+    sulfuric-acid:
+    {
+        type: LiquidBulletType
+        liquid: sulfuric-acid
+        damage: 4
+        lifetime: 60
+        shootEffect: shootLiquid
+        speed: 4.5
+        knockback: 1.5
+        puddleSize: 10
+        ammoMultiplier: 0.7
+        statusDuration: 240
+        drag: 0.002
+        orbSize: 4
+    }
+    slag:
+    {
+        type: LiquidBulletType
+        liquid: slag
+        damage: 8
+        lifetime: 60
+        shootEffect: shootLiquid
+        speed: 4.5
+        knockback: 1.5
+        puddleSize: 10
+        ammoMultiplier: 0.7
+        statusDuration: 240
+        drag: 0.002
+        orbSize: 4
+    }
+    cryo-fluid:
+    {
+        type: LiquidBulletType
+        liquid: cryo-fluid
+        damage: 0.7
+        lifetime: 60
+        shootEffect: shootLiquid
+        speed: 4.5
+        knockback: 1.5
+        puddleSize: 10
+        ammoMultiplier: 0.7
+        statusDuration: 240
+        drag: 0.002
+        orbSize: 4
+    }
+}
+requirements:
+[
+    tungsten/330
+    steel/120
+    metaglass/120
+    titanium/120
+]
+category: turret
