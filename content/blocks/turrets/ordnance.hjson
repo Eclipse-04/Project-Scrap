@@ -40,7 +40,7 @@ ammoTypes:
             sizeTo: 0
             colorFrom: f2e878
             colorTo: f2e878
-            region: industrial-point-trail
+            region: industrial-arrow-trail
         }
         damage: 950
         pierceDamageFactor: 0.9
