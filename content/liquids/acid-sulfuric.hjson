@@ -5,3 +5,4 @@ barColor: 88bdbd
 research: water
 name: Acid Sulfuric
 effect: industrial-acid-sulfuric-melting
+temperature: 0.6
