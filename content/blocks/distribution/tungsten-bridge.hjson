@@ -1,0 +1,12 @@
+type: BufferedItemBridge
+desciption: "A bridge with longer range and have a decent buffer capacity"
+bufferCapacity: 15
+health: 120
+size: 1
+requirements:
+[
+    tungsten/4
+    steel/3
+]
+range: 6
+transportTime: 120
