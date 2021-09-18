@@ -18,7 +18,7 @@ ammoTypes:
         type: LiquidBulletType
         liquid: water
         damage: 0.3
-        lifetime: 60
+        lifetime: 30
         shootEffect: shootLiquid
         speed: 4.5
         knockback: 1.5
@@ -33,7 +33,7 @@ ammoTypes:
         type: LiquidBulletType
         liquid: oil
         damage: 0.3
-        lifetime: 60
+        lifetime: 30
         shootEffect: shootLiquid
         speed: 4.5
         knockback: 1.5
@@ -63,7 +63,7 @@ ammoTypes:
         type: LiquidBulletType
         liquid: slag
         damage: 8
-        lifetime: 60
+        lifetime: 30
         shootEffect: shootLiquid
         speed: 4.5
         knockback: 1.5
@@ -78,7 +78,7 @@ ammoTypes:
         type: LiquidBulletType
         liquid: cryofluid
         damage: 0.7
-        lifetime: 60
+        lifetime: 30
         shootEffect: shootLiquid
         speed: 4.5
         knockback: 1.5
