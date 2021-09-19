@@ -1,0 +1,23 @@
+name: Steel Smelter
+size: 2
+health: 550
+desciption: "Combine Silicon and sand to make silic glass"
+requirements:
+[
+    copper/45
+    metaglass/25
+    silicon/15
+]
+craftTime: 30
+consumes:
+{
+    power: 1.5
+    items: {
+        items: [
+            silicon/1
+            sand/2
+        ]
+    }
+}
+category: crafting
+outputItem: silic-glass/2
