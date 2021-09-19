@@ -1,0 +1,18 @@
+type: Battery
+health: 4200
+category: power
+consumes:
+{
+    powerBuffered: 230000
+}
+size: 4
+requirements:
+[
+    tungsten/550
+    lead/330
+    steel/220
+    titanium/150
+    silicon/660
+]
+name: Huge Battery
+desciption: "A huge battery, capable of storing a large amount of power"
