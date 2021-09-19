@@ -3,6 +3,7 @@ desciption: "A bridge with longer range and have a decent buffer capacity"
 bufferCapacity: 15
 health: 120
 size: 1
+name: Tungsten Item Bridge
 requirements:
 [
     tungsten/4
