@@ -1,6 +1,7 @@
 type: Block
 name: Steel Wall
 health: 600
+size: 1
 requirements:
 [
     steel/6
