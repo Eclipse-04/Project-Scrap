@@ -1,4 +1,4 @@
-type: Block
+type: Wall
 name: Large Tungsten Wall
 health: 2000
 requirements:
