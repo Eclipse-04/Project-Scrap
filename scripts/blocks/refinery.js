@@ -7,4 +7,6 @@ smolSteel.drawer = new DrawSmelter();
 const bigSteel = extend( AttributeCrafter, "steel-forge", {});
 bigSteel.drawer = new DrawSmelter();
 const silicglass = extend( GenericCrafter, "silic-glass-smelter", {});
-silicglass.drawer = new DrawSmelter();
+const silSmeltDraw = new DrawSmelter();
+silSmeltDraw.lightRadius = 30
+silicglass.drawer = silSmeltDraw
