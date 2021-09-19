@@ -1,4 +1,4 @@
-type: Block
+type: Wall
 name: Tungsten Wall
 health: 500
 size: 1
