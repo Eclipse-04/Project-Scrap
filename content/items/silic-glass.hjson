@@ -1,0 +1,6 @@
+type: Item
+name: Silic Glass
+color: 5c5f66
+hardness: 3
+cost: 1.5
+desciption: "A very hard glass"
