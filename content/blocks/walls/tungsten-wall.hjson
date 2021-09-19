@@ -1,6 +1,7 @@
 type: Block
 name: Tungsten Wall
 health: 500
+size: 1
 requirements:
 [
     tungsten/6
