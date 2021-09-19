@@ -1,0 +1,15 @@
+type: LiquidRouter
+name: Liquid Container Tank
+desciption: "A huge liquid tank that can store a large amount of liquids"
+size: 4
+health: 5500
+liquidCapacity: 9500
+requirements:
+[
+    titanium/750
+    tungsten/350
+    steel/250
+    silic-glass/150
+    metaglass/55
+]
+category: liquid
