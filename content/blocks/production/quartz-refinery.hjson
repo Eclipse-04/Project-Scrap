@@ -1,0 +1,33 @@
+desciption: "Filtering sand into quartz, require extra water"
+craftEffect: steam
+hasItems: true
+hasLiquids: true
+health: 550
+hasPower: true
+craftTime: 45
+liquidCapacity: 55
+itemCapacity: 35
+size: 3
+name: Quartz Filterer
+consumes:
+{
+    power: 1.5
+    items: {
+        items: [
+            sand/8
+        ]
+    }
+    liquid: {
+        liquid: water
+        amount: 0.4
+    }
+}
+category: crafting
+outputItem: quartz/3
+requirements:
+[
+    tungsten/55
+    steel/45
+    titanium/25
+    iron/65
+]
