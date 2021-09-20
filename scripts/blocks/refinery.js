@@ -9,6 +9,7 @@ bigSteel.drawer = new DrawSmelter();
 const silicglass = extend( GenericCrafter, "silic-glass-smelter", {});
 const pain = new DrawSmelter();
 pain.flameRadius = 2
+pain.lightAlpha = 0.15
 silicglass.drawer = pain
 const quartRefine = extend( GenericCrafter, "quartz-refinery", {});
 const spritePain = new DrawSmelter
