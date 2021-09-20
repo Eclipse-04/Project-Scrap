@@ -17,7 +17,7 @@ range: 600
 shootEffect: instShoot
 recoilAmount: 4
 rotateSpeed: 10
-desciption: "Shoot a strong, piercing deadly rail"
+description: "Shoot a strong, piercing deadly rail"
 name: Ordnance
 ammoTypes:
 {
