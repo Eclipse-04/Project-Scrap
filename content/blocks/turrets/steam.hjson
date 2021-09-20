@@ -1,7 +1,7 @@
 type: LiquidTurret
 health: 85
 reloadTime: 10
-desciption: "Shoot a weak steam of liquid, can only use water and oil for ammo"
+description: "Shoot a weak steam of liquid, can only use water and oil for ammo"
 range: 72
 rotateSpeed: 5
 name: Steam
