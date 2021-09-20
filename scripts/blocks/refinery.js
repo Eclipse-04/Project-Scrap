@@ -13,4 +13,4 @@ silicglass.drawer = pain
 const quartRefine = extend( GenericCrafter, "quartz-refinery", {});
 const spritePain = new DrawSmelter
 spritePain.spinSpeed = 5
-quartRefine.drawer = new DrawRotator();
+quartRefine.drawer = spritePain
