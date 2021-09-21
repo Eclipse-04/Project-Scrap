@@ -1,0 +1,32 @@
+name: Silica Glass Forge
+requirements:
+[
+    tungsten/140
+    steel/120
+    plastanium/55
+    silic-glass/75
+    lead/85
+    silicon/95
+]
+health: 1050
+size: 3
+craftTime: 45
+description: "Consume a large amount of resource and power to make Silica Glass, Need extra slag to work"
+consumes:
+{
+    power: 10.5
+    items: {
+        items: [
+            quartz/5
+            silicon/2
+        ]
+    }
+    liquid: {
+        liquid: slag
+        amount: 0.25
+    }
+}
+category: crafting
+outputItem: silic-glass/5
+liquidCapacity: 30
+itemCapacity: 45
