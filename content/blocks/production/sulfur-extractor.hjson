@@ -23,3 +23,14 @@ consumes:
     power: 7
 }
 outputItem: sulfur/4
+updateEffect:
+{
+    type: ParticleEffect
+    colorFrom: f5de78
+    colorTo: ffffff00
+    particles: 3
+    length: 16
+    region: industrial-diamond
+    strokeFrom: 4
+    strokeTo: 0
+}
