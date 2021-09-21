@@ -1,7 +1,7 @@
 name: Steel Smelter
 size: 2
 health: 550
-desciption: "Smelt Iron and mix it with coal for Steel"
+description: "Smelt Iron and mix it with coal for Steel"
 requirements:
 [
     copper/25
