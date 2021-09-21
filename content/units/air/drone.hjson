@@ -4,7 +4,7 @@ speed: 3.5
 accel: 0.08
 name: "Transport Drone"
 drag: 0.02
-desciption: "A Transport drone that can move very fast and carry a decent amount of items, has no AI and must be controlled by logistic"
+description: "A Transport drone that can move very fast and carry a decent amount of items, has no AI and must be controlled by logistic"
 health: 75
 itemCapacity: 40
 engineSize: 0
