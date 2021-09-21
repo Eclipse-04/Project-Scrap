@@ -1,7 +1,7 @@
 name: Silic Glass Smelter
 size: 2
 health: 550
-desciption: "Smelt silicon with sand for silic glass"
+description: "Smelt silicon with sand for silic glass"
 requirements:
 [
     lead/25
