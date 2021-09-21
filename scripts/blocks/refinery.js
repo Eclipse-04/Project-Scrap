@@ -16,3 +16,5 @@ const quartRefine = extend( GenericCrafter, "quartz-refinery", {});
 const spri = new DrawRotator();
 spri.spinSpeed = 5
 quartRefine.drawer = spri
+const thiccSilicGlass = extend( GenericCrafter, "silic-glass-forge", {});
+thiccSilicGlass.drawer = pain
