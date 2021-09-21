@@ -1,4 +1,4 @@
-desciption: "Filtering sand into quartz, require extra water"
+description: "Filtering sand into quartz, require extra water"
 craftEffect: steam
 hasItems: true
 hasLiquids: true
