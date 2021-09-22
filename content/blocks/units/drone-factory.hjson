@@ -1,5 +1,5 @@
 type: UnitFactory
-size: 2
+size: 3
 name: Drone Factory
 health: 220
 consumes:
