@@ -69,7 +69,7 @@ ThiccQuartzRefinery.buildType = () => extend(GenericCrafter.GenericCrafterBuild,
 		Draw.alpha(1);
 		Draw.color();
 		Draw.rect(ThiccQuartzRefinery.rOtaE, this.x, this.y, this.totalProgress * 3);
-		Draw.rect(ThiccQuartzRefinery.rOtaE, this.x, this.y, this.totalProgress * -3);
+		Draw.rect(ThiccQuartzRefinery.rOtaE, this.x, this.y, this.totalProgress * -2);
 		Draw.rect(ThiccQuartzRefinery.GlassRegion, this.x, this.y, 0);
 	}
 });
