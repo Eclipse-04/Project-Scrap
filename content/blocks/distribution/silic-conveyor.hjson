@@ -1,0 +1,13 @@
+type: StackConveyor
+health: 250
+description: "A very durable conveyor, large stack size, fast, absolutely amazing."
+name: Silica Conveyor
+size: 1
+requirements:
+[
+    tungsten/2
+    steel/1
+    silic-glass/1
+    silicon/3
+]
+speed: 16
