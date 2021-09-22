@@ -1,0 +1,33 @@
+description: "Refine large amount of sand into quartz, consume acid sulfuric instead of water"
+craftEffect: steam
+hasItems: true
+hasLiquids: true
+health: 2200
+hasPower: true
+craftTime: 60
+liquidCapacity: 55
+itemCapacity: 35
+size: 4
+name: Quartz Refinery
+consumes:
+{
+    power: 20.5
+    items: {
+        items: [
+            sand/14
+        ]
+    }
+    liquid: {
+        liquid: acid-sulfuric
+        amount: 0.2
+    }
+}
+category: crafting
+outputItem: quartz/11
+requirements:
+[
+    tungsten/330
+    steel/450
+    silic-glass/250
+    plastanium/250
+]
