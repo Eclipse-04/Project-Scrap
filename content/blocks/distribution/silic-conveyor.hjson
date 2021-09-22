@@ -1,6 +1,6 @@
 type: StackConveyor
 health: 250
-description: "A very durable conveyor, large stack size, fast, absolutely amazing."
+description: "A very durable conveyor, large stack size, decent speed, absolutely amazing."
 name: Silica Conveyor
 size: 1
 requirements:
@@ -11,4 +11,4 @@ requirements:
     silicon/3
 ]
 speed: 0.05
-itemCapacity: 15
+itemCapacity: 35
