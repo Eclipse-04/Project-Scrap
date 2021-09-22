@@ -62,7 +62,7 @@ ThiccQuartzRefinery.buildType = () => extend(GenericCrafter.GenericCrafterBuild,
 
 		Draw.rect(ThiccQuartzRefinery.region, this.x, this.y, 0);
 
-		Draw.color(Liquids.oil.color);
+		Draw.color(Color.valueOf("88bdbd"));
 		Draw.alpha(this.liquids.get(inputLiquid) / ThiccQuartzRefinery.liquidCapacity);
 		Draw.rect(ThiccQuartzRefinery.liquidRegion, this.x, this.y);
 
