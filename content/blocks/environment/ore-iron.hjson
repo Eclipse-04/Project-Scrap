@@ -1,3 +1,4 @@
 type: OreBlock
 mapColor: ab8580
 itemDrop: iron
+name: Iron Ore
