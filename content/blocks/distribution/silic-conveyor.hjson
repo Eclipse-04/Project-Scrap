@@ -8,7 +8,7 @@ requirements:
     tungsten/2
     steel/1
     silic-glass/1
-    silicon/3
+    plastanium/3
 ]
 speed: 0.05
 itemCapacity: 35
