@@ -23,7 +23,7 @@ consumes:
     }
 }
 category: crafting
-outputItem: quartz/3
+outputItem: quartz/5
 requirements:
 [
     tungsten/55
