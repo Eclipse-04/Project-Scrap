@@ -4,7 +4,7 @@ hasItems: true
 hasLiquids: true
 health: 2200
 hasPower: true
-craftTime: 60
+craftTime: 90
 liquidCapacity: 55
 itemCapacity: 35
 size: 4
