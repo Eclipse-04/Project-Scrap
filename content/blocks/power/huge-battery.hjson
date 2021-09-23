@@ -15,4 +15,4 @@ requirements:
     silicon/660
 ]
 name: Huge Battery
-desciption: "A huge battery, capable of storing a large amount of power"
+description: "A huge battery, capable of storing a large amount of power"
