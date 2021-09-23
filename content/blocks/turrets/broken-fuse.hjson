@@ -10,7 +10,7 @@ requirements:
     copper/35
     tungsten/25
 ]
-placeablePlayer: false
+buildVisibility: editorOnly
 shootEffect: shotgun
 recoilAmount: 2
 rotateSpeed: 15
