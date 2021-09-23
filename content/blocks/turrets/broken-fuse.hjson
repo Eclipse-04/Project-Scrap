@@ -26,6 +26,7 @@ ammoTypes: {
         fromColor: e0b28d
         toColor: 9b928b
         buildingDamageMultiplier: 0.65
+    }
     tugnsten: {
         type: ShrapnelBulletType
         length: 70
