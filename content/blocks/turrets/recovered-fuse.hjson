@@ -13,7 +13,7 @@ requirements:
     copper/35
     tungsten/25
     steel/65
-    graphite
+    graphite/35
 ]
 shootSound: shotgun
 recoilAmount: 2
