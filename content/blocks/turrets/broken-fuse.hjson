@@ -12,7 +12,7 @@ requirements:
     tungsten/25
 ]
 buildVisibility: editorOnly
-shootEffect: shotgun
+shootSound: shotgun
 recoilAmount: 2
 rotateSpeed: 15
 ammoType:
