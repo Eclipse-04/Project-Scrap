@@ -5,6 +5,11 @@ category: turret
 size: 2
 reloadTime: 90
 range: 64
+requirements:
+[
+    copper/35
+    tungsten/25
+]
 placeablePlayer: false
 shootEffect: shotgun
 recoilAmount: 2
