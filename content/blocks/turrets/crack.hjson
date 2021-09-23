@@ -1,0 +1,47 @@
+name: Crack
+type: ItemTurret
+desciption: "a small turret"
+health: 950
+category: turret
+size: 1
+liquidCapacity: 60
+itemCapacity: 20
+reloadTime: 60
+range: 40
+requirements:
+[
+    copper/35
+    lead/15
+]
+shootSound: shotgun
+recoilAmount: 2
+rotateSpeed: 15
+ammoTypes: {
+    scrap: {
+        type: ShrapnelBulletType
+        length: 45
+        width: 10
+        damage: 25
+        fromColor: e0b28d
+        toColor: 9b928b
+        buildingDamageMultiplier: 0.65
+    }
+    lead: {
+        type: ShrapnelBulletType
+        length: 45
+        width: 10
+        damage: 30
+        fromColor: e0b28d
+        toColor: 9b928b
+        buildingDamageMultiplier: 0.65
+    }
+    graphite: {
+        type: ShrapnelBulletType
+        length: 45
+        width: 10
+        damage: 45
+        fromColor: e0b28d
+        toColor: 9b928b
+        buildingDamageMultiplier: 0.65
+    }
+}
