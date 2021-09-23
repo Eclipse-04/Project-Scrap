@@ -17,7 +17,8 @@ buildVisibility: editorOnly
 shootSound: shotgun
 recoilAmount: 2
 rotateSpeed: 15
-ammoTypes: {
+ammoTypes:
+{
     scrap: {
         type: ShrapnelBulletType
         length: 70
