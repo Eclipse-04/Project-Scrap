@@ -1,4 +1,5 @@
 name: Ruined Fuse
+type: ItemTurret
 desciption: "An old broken fuse, still usable though"
 health: 950
 category: turret
