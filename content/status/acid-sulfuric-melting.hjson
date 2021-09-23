@@ -1,4 +1,3 @@
-type: Status
 damageMultiplier: 0.95
 reloadMultiplier: 0.8
 buildSpeedMultiplier: 0.75
