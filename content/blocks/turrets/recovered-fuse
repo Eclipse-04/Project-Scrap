@@ -1,0 +1,30 @@
+name: Recovered Snap
+type: ItemTurret
+description: "Recovered Tech, Better, stronger"
+health: 950
+category: turret
+size: 2
+liquidCapacity: 60
+itemCapacity: 20
+reloadTime: 45
+range: 80
+requirements:
+[
+    copper/35
+    tungsten/25
+    steel/65
+    graphite
+]
+shootSound: shotgun
+recoilAmount: 2
+rotateSpeed: 15
+ammoTypes: {
+    scrap: {
+        type: ShrapnelBulletType
+        length: 85
+        width: 10
+        damage: 35
+        fromColor: e0b28d
+        toColor: 9b928b
+        buildingDamageMultiplier: 0.65
+    }
