@@ -1,0 +1,41 @@
+name: Ruined Fuse
+desciption: "An old broken fuse, still usable though"
+health: 950
+category: turret
+size: 2
+reloadTime: 90
+range: 64
+placeablePlayer: false
+shootEffect: shotgun
+recoilAmount: 2
+rotateSpeed: 15
+ammoType:
+{
+    scrap: {
+        type: ShrapnelBulletType
+        length: 70
+        width: 10
+        damage: 35
+        fromColor: e0b28d
+        toColor: 9b928b
+        buildingDamageMultiplier: 0.65
+    }
+    copper: {
+        type: ShrapnelBulletType
+        length: 70
+        width: 10
+        damage: 65
+        fromColor: e0b28d
+        toColor: 9b928b
+        buildingDamageMultiplier: 0.65
+    }
+    tungsten: {
+        type: ShrapnelBulletType
+        length: 70
+        width: 10
+        damage: 85
+        fromColor: e0b28d
+        toColor: 9b928b
+        buildingDamageMultiplier: 0.65
+    }
+}
