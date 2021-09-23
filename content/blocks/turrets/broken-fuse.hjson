@@ -28,7 +28,7 @@ ammoTypes:
         toColor: 9b928b
         buildingDamageMultiplier: 0.65
     }
-    tugnsten: {
+    tungsten: {
         type: ShrapnelBulletType
         length: 70
         width: 10
