@@ -1,6 +1,6 @@
 type: LiquidRouter
 name: Liquid Container Tank
-desciption: "A huge liquid tank that can store a large amount of liquids"
+description: "A huge liquid tank that can store a large amount of liquids"
 size: 4
 health: 5500
 liquidCapacity: 9500
