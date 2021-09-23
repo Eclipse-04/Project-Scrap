@@ -28,3 +28,4 @@ ammoTypes: {
         toColor: 9b928b
         buildingDamageMultiplier: 0.65
     }
+}
