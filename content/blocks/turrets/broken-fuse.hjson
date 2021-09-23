@@ -17,7 +17,7 @@ buildVisibility: editorOnly
 shootSound: shotgun
 recoilAmount: 2
 rotateSpeed: 15
-ammoType: {
+ammoTypes: {
     scrap: {
         type: ShrapnelBulletType
         length: 70
@@ -25,6 +25,14 @@ ammoType: {
         damage: 35
         fromColor: e0b28d
         toColor: 9b928b
+        buildingDamageMultiplier: 0.65
+    tugnsten: {
+        type: ShrapnelBulletType
+        length: 70
+        width: 10
+        damage: 35
+        fromColor: 7ddba6
+        toColor: 79b392
         buildingDamageMultiplier: 0.65
     }
 }
