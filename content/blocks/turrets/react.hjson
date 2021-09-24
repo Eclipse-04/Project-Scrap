@@ -1,6 +1,7 @@
 type: ItemTurret
 chargeTime: 60
 name: React
+category: turret
 shootEffect:
 {
     type: MultiEffect
