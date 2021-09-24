@@ -28,9 +28,8 @@ shootEffect:
 }
 health: 750
 size: 2
-description: 
-requirements:
-[
+description: "h"
+requirements: [
     tungsten/55
     steel/95
     silicon/35
