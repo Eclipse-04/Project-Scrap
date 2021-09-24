@@ -3,7 +3,7 @@ hasItems: true
 hasLiquids: true
 health: 2200
 hasPower: true
-craftTime: 240
+craftTime: 480
 liquidCapacity: 55
 itemCapacity: 150
 size: 3
@@ -13,14 +13,14 @@ consumes:
     power: 20.5
     items: {
         items: [
-            sand/50
-            thorium/20
-            silicon/5
+            sand/70
+            thorium/24
+            silicon/7
         ]
     }
 }
 category: crafting
-outputItem: phase-fabric/8
+outputItem: phase-fabric/13
 requirements:
 [
     silicon/750
