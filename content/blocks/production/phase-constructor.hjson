@@ -18,10 +18,6 @@ consumes:
             silicon/5
         ]
     }
-    liquid: {
-        liquid: water
-        amount: 0.1
-    }
 }
 category: crafting
 outputItem: phase-fabric/8
