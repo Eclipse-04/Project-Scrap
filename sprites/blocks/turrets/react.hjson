@@ -1,0 +1,67 @@
+type: ItemTurret
+chargeTime: 60
+name: React
+shootEffect:
+{
+    type: MultiEffect
+    effects: [
+        {
+            type: WaveEffect
+            sizeFrom: 8
+            sizeTo: 0
+            strokeFrom: 0
+            strokeTo: 3.5
+            lifeTime: 60
+        }
+        {
+            type: ParticleEffect
+            sizeFrom: 4
+            sizeTo: 0
+            strokeFrom: 3
+            strokeTo: 0
+            colorFrom: ffffff00
+            randLength: true
+            particles: 6
+        }
+    ]
+}
+health: 750
+size: 2
+description: 
+requirements:
+[
+    tungsten/55
+    steel/95
+    silicon/35
+    titanium/25
+]
+consumes:
+{
+    items: {
+        items: [
+            steel/2
+        ]
+    }
+}
+range: 80
+ammoTypes:
+{
+    tungsten:
+    {
+        type: BasicBulletType
+        backColor: 679c7e
+        frontColor: 7ddba6
+        width: 8
+        height: 8
+        sprite: industrial-star
+        backRegion: industrial-missle-back
+        frontRegion: industrial-missle
+        splashDamage: 65
+        splashDamageRadius: 32
+        lifeTime: 420
+        speed: 2
+        spin: 2
+        trailEffect: fallSmoke
+        trailChance: 0.3
+    }
+}
