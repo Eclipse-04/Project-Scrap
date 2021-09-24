@@ -11,7 +11,7 @@ thiccPhase.buildType = () => extend(GenericCrafter.GenericCrafterBuild, thiccPha
 	draw(tile){
 		Draw.rect(thiccPhase.region, this.x, this.y, 0);
         	Draw.rect(thiccPhase.bar, this.x + Angles.trnsx(this.totalProgress * 360, 1.6875), this.y, 0);
-        	Draw.rect(thiccPhase.bar, this.x, this.y + Angles.trnsy(this.totalProgress * 720, 1.375), 0);
+        	Draw.rect(thiccPhase.point, this.x + Angles.trnsx(this.totalProgress * 360, 1.6875), this.y + Angles.trnsy(this.totalProgress * 720, 1.375), 0);
         	Draw.rect(thiccPhase.top, this.x, this.y, 0)
 	}
 });
