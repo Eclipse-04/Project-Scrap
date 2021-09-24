@@ -13,14 +13,14 @@ consumes:
     power: 20.5
     items: {
         items: [
-            sand/70
-            thorium/24
-            silicon/7
+            sand/100
+            thorium/40
+            silicon/12
         ]
     }
 }
 category: crafting
-outputItem: phase-fabric/13
+outputItem: phase-fabric/18
 requirements:
 [
     silicon/750
