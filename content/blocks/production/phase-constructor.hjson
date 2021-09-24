@@ -1,12 +1,11 @@
-description: "[red]WIP!"
-craftEffect: steam
+description: "a very expensive machine, take very long to make lot of phase fabric, need extra silicon"
 hasItems: true
 hasLiquids: true
 health: 2200
 hasPower: true
-craftTime: 90
+craftTime: 540
 liquidCapacity: 55
-itemCapacity: 35
+itemCapacity: 150
 size: 3
 name: Phase Constructor
 consumes:
@@ -14,20 +13,23 @@ consumes:
     power: 20.5
     items: {
         items: [
-            sand/14
+            sand/50
+            thorium/20
+            silicon/5
         ]
     }
     liquid: {
-        liquid: acid-sulfuric
-        amount: 0.2
+        liquid: water
+        amount: 0.1
     }
 }
 category: crafting
-outputItem: phase-fabric/11
+outputItem: phase-fabric/8
 requirements:
 [
-    tungsten/330
-    steel/450
-    silic-glass/250
-    plastanium/250
+    silicon/750
+    lead/550
+    tungsten/350
+    steel/350
+    silic-glass/330
 ]
