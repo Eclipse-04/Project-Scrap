@@ -53,9 +53,7 @@ ammoTypes:
         frontColor: 7ddba6
         width: 8
         height: 8
-        sprite: industrial-star
-        backRegion: industrial-missle-back
-        frontRegion: industrial-missle
+        sprite: industrial-missle
         splashDamage: 65
         splashDamageRadius: 32
         lifeTime: 420
