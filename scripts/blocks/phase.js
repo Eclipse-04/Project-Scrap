@@ -15,6 +15,6 @@ thiccPhase.buildType = () => extend(GenericCrafter.GenericCrafterBuild, thiccPha
 		Draw.rect(thiccPhase.phase, this.x, this.y, this.totalProgress * 3)
 		Draw.alpha(1)
         	Draw.rect(thiccPhase.top, this.x, this.y, 0)
-		Draw.rect(thiccPhase.bar, this.x + Mathf.sin(this.totalProgress, 1, 3), this.y, this.totalProgress * 3)
+		Draw.rect(thiccPhase.bar, this.x + Mathf.cos(this.totalProgress, 1, 3), this.y, this.totalProgress * 3)
 	}
 });
