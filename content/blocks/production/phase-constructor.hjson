@@ -1,0 +1,33 @@
+description: "[red]WIP!"
+craftEffect: steam
+hasItems: true
+hasLiquids: true
+health: 2200
+hasPower: true
+craftTime: 90
+liquidCapacity: 55
+itemCapacity: 35
+size: 3
+name: Phase Constructor
+consumes:
+{
+    power: 20.5
+    items: {
+        items: [
+            sand/14
+        ]
+    }
+    liquid: {
+        liquid: acid-sulfuric
+        amount: 0.2
+    }
+}
+category: crafting
+outputItem: phase-fabric/11
+requirements:
+[
+    tungsten/330
+    steel/450
+    silic-glass/250
+    plastanium/250
+]
