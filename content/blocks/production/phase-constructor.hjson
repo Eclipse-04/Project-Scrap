@@ -27,5 +27,7 @@ requirements:
     lead/550
     tungsten/350
     steel/350
+    surge-alloy/150
+    phase-fabric/80
     silic-glass/330
 ]
