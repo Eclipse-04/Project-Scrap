@@ -1,0 +1,33 @@
+description: "Refine and press Debris into usable plate, consume a large amount of power and sulfuric acid"
+hasItems: true
+hasLiquids: true
+health: 2200
+hasPower: true
+craftTime: 90
+liquidCapacity: 55
+itemCapacity: 35
+size: 4
+name: Debris Refinery
+consumes:
+{
+    power: 33.5
+    items: {
+        items: [
+            deca/3
+        ]
+    }
+    liquid: {
+        liquid: acid-sulfuric
+        amount: 0.3
+    }
+}
+category: crafting
+outputItem: fixed-deca/2
+requirements:
+[
+    tungsten/740
+    steel/650
+    silic-glass/250
+    surge-alloy/150
+    battery/110
+]
