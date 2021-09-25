@@ -1,0 +1,32 @@
+type: LiquidConverter
+health: 1250
+size: 3
+description: "make a large amount of cryofluid"
+liquidCapacity: 100
+itemCapacity: 50
+consumes:
+{
+    power: 10
+    items: {
+        items: [
+            titanium/3
+        ]
+    }
+    liquid: {
+        liquid: water
+        amount: 0.8
+    }
+}
+requirements:
+[
+    silic-glass/75
+    silicon/150
+    titanium/60
+    tungsten/75
+    steel/45
+]
+name: Large Cryo Mixer
+research: cryofluid-mixer
+category: crafting
+drawer: drawMixer
+outputLiquid: cryo-fluid/48
