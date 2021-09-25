@@ -6,7 +6,7 @@ hasPower: true
 craftTime: 90
 liquidCapacity: 55
 itemCapacity: 35
-size: 4
+size: 3
 name: Debris Refinery
 consumes:
 {
