@@ -1,0 +1,33 @@
+description: "Manufacture Battery Rapidly"
+hasItems: true
+hasLiquids: true
+health: 1200
+hasPower: true
+craftTime: 90
+liquidCapacity: 35
+itemCapacity: 15
+size: 2
+name: Battery Manufacturer
+consumes:
+{
+    power: 20.5
+    items: {
+        items: [
+            steel/4
+            alum/3
+        ]
+    }
+    liquid: {
+        liquid: acid-sulfuric
+        amount: 0.3
+    }
+}
+category: crafting
+outputItem: battery/3
+requirements:
+[
+    iron/75
+    steel/95
+    tungsten/25
+    alum/45
+]   
