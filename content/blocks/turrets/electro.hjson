@@ -9,6 +9,7 @@ requirements:
 range: 180
 changeTime: 20
 spread: 10
+name: Polearm
 shots: 2
 description: "A Quick-shoot lancer that can paralyze air enemy"
 chargeMaxDelay: 5
