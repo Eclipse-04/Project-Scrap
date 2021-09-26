@@ -14,3 +14,7 @@ spri.spinSpeed = 5
 quartRefine.drawer = spri
 const thiccSilicGlass = extend( GenericCrafter, "silic-glass-forge", {});
 thiccSilicGlass.drawer = DrawSmelter();
+const pressDeca = extend( GenericCrafter, "deca-refinery", {});
+const press = new DrawAnimation();
+press.frameCount = 16
+pressDeca.drawer = press

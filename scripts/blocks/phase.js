@@ -1,31 +1,21 @@
-const phaseConstructor = extend(GenericCrafter, "phase-constructor", {
-  load() {
-    this.super$load();
-    this.topRegion = Core.atlas.find(this.name + "-top");
-    this.barRegion = Core.atlas.find(this.name + "-bar");
-    this.pointRegion = Core.atlas.find(this.name + "-point");
-    this.phaseRegion = Core.atlas.find(this.name + "-phase");
-  },
-  icons(){
-    return [
-      this.region,this.phaseRegion,this.barRegion,this.pointRegion,this.topRegion
-      ];
-  }
+const thiccPhase = extend(GenericCrafter, "phase-constructor", {
+	load(){
+		this.super$load();
+		this.region = Core.atlas.find("industrial-phase-constructor");
+		this.top = Core.atlas.find("industrial-phase-constructor-top");
+		this.bar = Core.atlas.find("industrial-phase-constructor-bar");
+		this.point = Core.atlas.find("industrial-phase-constructor-point");
+		this.phase = Core.atlas.find("industrial-phase-constructor-phase");
+	}
 });
-phaseConstructor.buildType = () => extend(GenericCrafter.GenericCrafterBuild, phaseConstructor, {
-  draw() {
-    Draw.rect(phaseConstructor.region, this.x, this.y);
-    
-    Draw.alpha(0.5 + Mathf.absin(this.totalProgress, 10, 0.5));
-    
-    Draw.rect(phaseConstructor.phaseRegion, this.x, this.y, this.totalProgress);
-    
-    Draw.alpha(1);
-    
-    Draw.rect(phaseConstructor.barRegion, this.x + Mathf.cos(this.totalProgress, 40, 4), this.y);
-    
-    Draw.rect(phaseConstructor.pointRegion, this.x + Mathf.cos(this.totalProgress, 40, 4), this.y + Mathf.sin(this.totalProgress, 20, 4));
-    
-    Draw.rect(phaseConstructor.topRegion, this.x, this.y);
-  }
+thiccPhase.buildType = () => extend(GenericCrafter.GenericCrafterBuild, thiccPhase, {
+	draw(tile){
+		Draw.rect(thiccPhase.region, this.x, this.y, 0);
+		Draw.alpha(this.totalProgress)
+		Draw.rect(thiccPhase.phase, this.x, this.y, 0)
+		Draw.alpha(1)
+		Draw.rect(thiccPhase.bar, this.x + Mathf.cos(this.totalProgress, 0.5, 3), this.y, 0)
+		Draw.rect(thiccPhase.point, this.x + Mathf.cos(this.totalProgress, 0.5, 3), this.y + Mathf.cos(this.totalProgress, 0.5, 3), 0)
+        	Draw.rect(thiccPhase.top, this.x, this.y, 0)
+	}
 });

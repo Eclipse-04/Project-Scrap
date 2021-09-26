@@ -1,13 +1,14 @@
 type: PowerTurret
 description: "Shoot Electric bullet"
-size:2
+size: 2
 name: "Current"
-health: 550
-targetAir: true
+health: 750
+targetAir: false
 targetGround: true
-rotateSpeed: 4.5
-reloadTime: 60
-shots: 5
+rotateSpeed: 5
+reloadTime: 45
+shots: 7
+shotDelay: 5
 inaccuracy: 18
 burstSpacing: 1.5
 powerUse: 3.55
@@ -15,9 +16,9 @@ shootSound: spark
 range: 104
 requirements:
 [
-    lead/130
-    copper/60
-    titanium/20
+    tungsten/55
+    lead/65
+    copper/55
 ]
 shootType: 
 {
