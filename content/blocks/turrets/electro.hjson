@@ -1,0 +1,39 @@
+type: PowerTurret
+requirements:
+[
+    tungsten/60
+    silicon/55
+    steel/35
+    lead/25
+]
+range: 200
+changeTime: 20
+spread: 10
+shots: 2
+description: "A Quick-shoot lancer that can paralyze enemy"
+chargeMaxDelay: 5
+chargeEffects: 5
+recoilAmount: 1.7
+reloadTime: 50
+cooldown: 0.03
+powerUse: 7.5
+shootShake: 1.5
+shootEffect: lancerLaserShoot
+chargeEffect: lancerLaserCharge
+chargeBeginEffect: lancerLaserChargeBegin
+heatColor: ff0000
+size: 2
+health: 950
+targetAir: true
+targetGround: false
+shootType:
+{
+    colors: [85c8ff, a9d8ff, ffffff]
+    hitEffect: hitLancer
+    hitSize: 4
+    status: industrial-electrocuted
+    lifetime: 13
+    width: 6
+    length: 220
+    ammoMultiplier: 1
+}
