@@ -6,11 +6,11 @@ requirements:
     steel/35
     lead/25
 ]
-range: 200
+range: 180
 changeTime: 20
 spread: 10
 shots: 2
-description: "A Quick-shoot lancer that can paralyze enemy"
+description: "A Quick-shoot lancer that can paralyze air enemy"
 chargeMaxDelay: 5
 chargeEffects: 5
 recoilAmount: 1.7
@@ -34,8 +34,8 @@ shootType:
     type: LaserBulletType
     status: industrial-electrocuted
     lifetime: 13
-    damage: 50
-    width: 6
-    length: 220
+    damage: 35
+    width: 10
+    length: 185
     ammoMultiplier: 1
 }
