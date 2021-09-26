@@ -31,8 +31,10 @@ shootType:
     colors: [85c8ff, a9d8ff, ffffff]
     hitEffect: hitLancer
     hitSize: 4
+    type: LaserBulletType
     status: industrial-electrocuted
     lifetime: 13
+    damage: 50
     width: 6
     length: 220
     ammoMultiplier: 1
