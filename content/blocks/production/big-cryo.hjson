@@ -29,4 +29,4 @@ name: Large Cryo Mixer
 research: cryofluid-mixer
 category: crafting
 drawer: drawMixer
-outputLiquid: cryo-fluid/48
+outputLiquid: cryofluid/48
