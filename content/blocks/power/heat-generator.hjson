@@ -20,27 +20,4 @@ minLiquidEfficiency: 1
 randomlyExplode:false
 heatColor: ffffff00
 liquidCapacity: 50
-generateEffect: 
-{
-    type: MultiEffect
-    effects: [
-        {
-            type: WaveEffect
-            colorFrom: ffa166
-            colorTo: ffa166
-            lightColor: f0511d
-            sizeFrom: 5
-            sizeTo: 0
-            
-        }
-        {
-            type: ParticleEffect
-            colorFrom: ffa166
-            colorTo: ffa166
-            particles: 8
-            sizeFrom: 5
-            sizeTo: 0
-        }
-    ]
-}
 category: power
