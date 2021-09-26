@@ -26,6 +26,7 @@ shootType:
     shootEffect: lightningShoot
     backColor: a9d8ff
     frontColor: ffffff
+    collidesAir: false
     trailLength: 10
     status: shocked
     trailWidth: 1.2
