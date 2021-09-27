@@ -1,0 +1,29 @@
+type: SingleTypeGenerator
+itemCapacity: 20
+liquidCapacity: 30
+itemDuration: 90
+updateEffect: smoke
+updateEffectChance: 0.15
+description: "Mix Acid sulfuric with iron to make heat release reaction\nProduce [red]Watse Metal"
+health: 550
+size: 2
+requirements:
+[
+    tungsten/95
+    steel/35
+    silicon/25
+    graphite/85
+]
+consumes:
+{
+    liquid: {
+        liquid: acid-sulfuric
+        amount: 0.15
+    }
+    items: {
+        items: [
+            iron/2
+        ]
+    }
+}
+outputItem: watse-metal/2
