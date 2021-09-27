@@ -7,6 +7,9 @@ updateEffectChance: 0.15
 description: "Mix Acid sulfuric with iron to make heat release reaction\nProduce [red]Watse Metal"
 health: 550
 size: 2
+drawer: {
+  type: DrawLiquid
+}
 requirements:
 [
     tungsten/95
