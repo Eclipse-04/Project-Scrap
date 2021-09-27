@@ -1,6 +1,6 @@
 type: BlockForge
 desciption: "A smaller block forge for early game"
-name: Small Block Unloader
+name: Small Block Forge
 size: 1
 payloadLimit: 1
 health: 130
