@@ -1,0 +1,44 @@
+type: flying
+name: Squall
+description: "Powerful."
+hitSize: 45
+accel: 0.04
+itemCapacity: 460
+speed: 1.3
+engineSize: 0
+flying: true
+armor: 11
+rotateSpeed: 3.5
+circleTarget: true
+health: 6500
+drag: 0.05
+weapons:
+[
+    {
+        name: copter-d-big-gun
+        y: 3
+        x: 11
+        reload: 45
+        shots: 3
+        spread: 10
+        shootSound: artillery
+        alternate: true
+        mirror: true
+        rotate: true
+        shake: 1
+        bullet:
+        {
+            damage: 0
+            type: ArtilleryBulletType
+            trailMult: 2
+            trailColor: f9c27a
+            frontColor: fff8e8
+            backColor: f9c27a
+            width: 8
+            height: 8
+            speed: 2.3
+            splashDamageRadius: 80
+            splashDamage: 45
+        }
+    }
+]
