@@ -106,21 +106,6 @@ const copterc = extend(UnitType, "copter-c", {
 			unit.x + Angles.trnsx(unit.rotation, 7.5),
 			unit.y + Angles.trnsy(unit.rotation, 7.5),
 			unit.rotation - 90);
-		Draw.rect(
-			"industrial-sup-a-rotator",
-			unit.x + Angles.trnsx(unit.rotation, -12.5),
-			unit.y + Angles.trnsy(unit.rotation, -12.5),
-			Time.time * -15);
-		Draw.rect(
-			"industrial-sup-a-rotator",
-			unit.x + Angles.trnsx(unit.rotation, -12.5),
-			unit.y + Angles.trnsy(unit.rotation, -12.5),
-			Time.time * 15);
-		Draw.rect(
-			"industrial-sup-a-top",
-			unit.x + Angles.trnsx(unit.rotation, -12.5),
-			unit.y + Angles.trnsy(unit.rotation, -12.5),
-			unit.rotation - 90);
 	}
 });
 const copterd = extend(UnitType, "copter-d", {
