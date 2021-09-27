@@ -123,10 +123,31 @@ const copterc = extend(UnitType, "copter-c", {
 			unit.rotation - 90);
 	}
 });
+const copterd = extend(UnitType, "copter-d", {
+	draw(unit) {
+		this.super$draw(unit);
+		Draw.rect(
+			"industrial-copter-d-blade",
+			unit.x + Angles.trnsx(unit.rotation, 7.75),
+			unit.y + Angles.trnsy(unit.rotation, 7.75),
+			Time.time * -20);
+		Draw.rect(
+			"industrial-copter-d-blade-a",
+			unit.x + Angles.trnsx(unit.rotation, 7.75),
+			unit.y + Angles.trnsy(unit.rotation, 7.75),
+			Time.time * 20);
+		Draw.rect(
+			"industrial-copter-d-top",
+			unit.x + Angles.trnsx(unit.rotation, 7.75),
+			unit.y + Angles.trnsy(unit.rotation, 7.75),
+			unit.rotation - 90);
+	}
+});
 drone.constructor = () => extend(UnitEntity, {});
 repairer.constructor = () => extend(UnitEntity, {});
 coptera.constructor = () => extend(UnitEntity, {});
 copterb.constructor = () => extend(UnitEntity, {});
 copterc.constructor = () => extend(UnitEntity, {});
+copterd.constructor = () => extend(UnitEntity, {});
 // @Author Eschatologue 
 //extracted from Eschatologue/Heavy-Armaments-Industries, thx for giving me code
