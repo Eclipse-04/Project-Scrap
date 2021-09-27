@@ -1,4 +1,4 @@
-type: SingleTypeGenerator
+type: GenericCrafter
 itemCapacity: 20
 liquidCapacity: 30
 itemDuration: 90
