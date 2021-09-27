@@ -27,3 +27,5 @@ consumes:
     }
 }
 outputItem: watse-metal/2
+outputsPower: true
+powerProduction: 5
