@@ -1,6 +1,9 @@
 name: industrial
 displayName: Project Scrap
 author: Eclipse
-description: "My First v7 mod, h"
+description: "Well, its a work in progress. It currently adds a few miscellaneous items, units, and its own reconstructers.\n
+Click on the releases tab to manually download, or download from the in-game mod browser.\n
+It could be fun, ill leave the judgment of whether or not it is fun to you. If you find any issues, please open a issue.\n
+Discord @https://discord.gg/JHu9grmxyK"
 version: 0.2.4.3
 minGameVersion: 131
