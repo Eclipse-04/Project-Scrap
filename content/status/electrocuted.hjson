@@ -1,8 +1,8 @@
 name: Low EMP
-damageMultiplier: 0.85
-speedMultiplier: 0.5
-reloadMultiplier: 0.75
-buildSpeedMultiplier: 0.45
+damageMultiplier: 0.90
+speedMultiplier: 0.85
+reloadMultiplier: 0.80
+buildSpeedMultiplier: 0.55
 damage: 0.3
 transitionDamage: 20
 affinities:
