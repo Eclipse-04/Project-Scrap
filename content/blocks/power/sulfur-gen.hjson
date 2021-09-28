@@ -1,7 +1,7 @@
 type: GenericCrafter
 itemCapacity: 20
 liquidCapacity: 30
-itemDuration: 90
+craftTime: 90
 updateEffect: smoke
 updateEffectChance: 0.15
 description: "Mix Acid sulfuric with iron to make heat release reaction\nProduce [red]Watse Metal"
