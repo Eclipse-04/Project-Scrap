@@ -5,3 +5,10 @@ consumes:
     power: 0.2
 }
 name: Beacon
+size: 2
+requirements:
+[
+    tungsten/35
+    silicon/25
+    titanium/10
+]
