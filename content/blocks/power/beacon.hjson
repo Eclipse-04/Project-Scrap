@@ -1,0 +1,7 @@
+type: LightBlock
+health: 350
+consumes:
+{
+    power: 0.2
+}
+name: Beacon
