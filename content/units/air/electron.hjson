@@ -1,5 +1,8 @@
 name: Pin
 speed: 0.11
+hitSize: 7
+commandLimit: 6
+engineOffset: 4
 drag: 0.01
 health: 130
 description: "A Hit-and-run unit, slowly cover itself with a weak shield"
