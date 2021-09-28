@@ -1,0 +1,49 @@
+name: Pin
+speed: 0.11
+drag: 0.01
+health: 130
+description: "A Hit-and-run unit, slowly cover itself with a weak shield"
+circleTarget: true
+accel: 0.08
+range: 80
+abilities:
+[
+    {
+        type: MoveLightningAbility
+        minSpeed: 0.1
+        maxSpeed: 0.3
+        damage: 15
+        length: 16
+        color: a9d8ff
+        chance: 0.1
+    }
+    {
+        type: ShieldRegenFieldAbility
+        amount: 5
+        max: 50
+        reload: 60
+        range: 16
+        activeEffect: {
+            type: WaveEffect
+            lifetime: 30
+            sides: 4
+            colorFrom: a9d8ff
+            colorTo: a9d8ff
+            strokeFrom: 3
+            strokeTo: 0
+            sizeFrom: 0
+            sizeTo: 16
+        }
+        applyEffect: {
+            type: WaveEffect
+            lifetime: 20
+            sides: 4
+            colorFrom: a9d8ff
+            colorTo: a9d8ff
+            strokeFrom: 3
+            strokeTo: 0
+            sizeFrom: 8
+            sizeTo: 0
+        }
+    }
+]
