@@ -20,3 +20,8 @@ const pressDeca = extend( GenericCrafter, "deca-refinery", {});
 const press = new DrawAnimation();
 press.frameCount = 16
 pressDeca.drawer = press
+const capsuleInjector = extend( GenericCrafter, "sulfuric-cap", {});
+const injection = new DrawAnimation();
+injection.frameCount = 9
+//Injection :flushed:
+capsuleInjector.drawer = injection

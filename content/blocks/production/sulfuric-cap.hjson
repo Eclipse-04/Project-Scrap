@@ -1,0 +1,33 @@
+description: "Craft [gray]Capsule[] and inject [sky]Acid Sulfuric[] into it"
+details: "Make sulfuric capsule super duper fast!"
+hasItems: true
+hasLiquids: true
+health: 650
+hasPower: true
+craftTime: 30
+liquidCapacity: 35
+itemCapacity: 15
+size: 2
+name: Acid Sulfuric Capsule Manufacturer
+consumes:
+{
+    power: 3
+    items: {
+        items: [
+            tungsten/2
+        ]
+    }
+    liquid: {
+        liquid: acid-sulfuric
+        amount: 0.05
+    }
+}
+category: crafting
+outputItem: sulfuric-capsule/1
+requirements:
+[
+    steel/75
+    tungsten/35
+    metaglass/45
+    lead/85
+]   
