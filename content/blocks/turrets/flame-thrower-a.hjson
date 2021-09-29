@@ -1,0 +1,31 @@
+name: Large Scorch
+description: "A Larger flame thrower, can cause lot of fire"
+shots: 3
+spread: 8
+range: 30
+reload: 20
+shootSound: flame
+health: 750
+size: 2
+requirements:
+[
+    tungsten/75
+    steel/35
+    graphite/45
+    metaglass/15
+]
+category: turret
+ammoTypes:
+{   
+    coal: {
+        type: FireBulletType
+        radius: 3.5
+        speed: 3.5
+        lifetime: 70
+        status: burning
+        makefire: true
+        damage: 7
+        maxRange: 37
+        fireTrailChance: 0.03
+    }
+}
