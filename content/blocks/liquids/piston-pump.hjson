@@ -1,0 +1,13 @@
+name: Piston Pump
+desciption: "A cheap, faster than normal pump, but take up more space"
+requirements:
+[
+    copper/125
+    lead/35
+    scrap/75
+]
+type: Pump
+size: 2
+pumpAmount: 0.3
+health: 50
+squareSprite: false
