@@ -9,11 +9,12 @@ liquidCapacity: 70
 rotateSpeed: 1.3
 requirements:
 [
-    metaglass/35
-    plastanium/55
-    silicon/25
-    tungsten/45
-    steel/25
+    steel/220
+    tungsten/170
+    sulfuric-capsule/35
+    plastanium/85
+    silicon/125
+    silic-glass/75
 ]
 name: Sunfuric Acid Drill
 consumes:

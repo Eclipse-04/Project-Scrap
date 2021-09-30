@@ -6,7 +6,7 @@ payloadLimit: 1
 health: 130
 requirements:
 [
-    copper/120
+    copper/10
     lead/50
     graphite/35
     silicon/20

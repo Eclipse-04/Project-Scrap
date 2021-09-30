@@ -22,6 +22,7 @@ press.frameCount = 16
 pressDeca.drawer = press
 const capsuleInjector = extend( GenericCrafter, "sulfuric-cap", {});
 const injection = new DrawAnimation();
-injection.frameCount = 9
+injection.frameCount = 13
+injection.sine = false
 //Injection :flushed:
 capsuleInjector.drawer = injection

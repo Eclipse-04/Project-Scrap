@@ -1,0 +1,21 @@
+type: SolidPump
+health: 1100
+requirements:
+[
+    silic-glass/250
+    tungsten/350
+    steel/180
+    silicon/280
+    plastanium/155
+]
+rotateSpeed: 3.4
+description: "Using advanced compacted tech for faster extraction, consume lot of power"
+size: 4
+baseEfficiency: 1.5
+attribute: water
+pumpAmount: 0.81
+liquidCapacity: 550
+consumes:
+{
+    power: 12.5
+}

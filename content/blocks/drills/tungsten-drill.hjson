@@ -1,0 +1,27 @@
+type: Drill
+hardnessDrillMultiplier: 20
+liquidBoostIntensity: 1
+tier: 3
+description: "An acid drill, working by using acid sulfuric"
+drillTime: 45
+size: 3
+health: 550
+liquidCapacity: 70
+rotateSpeed: 0.3
+requirements:
+[
+    steel/120
+    tungsten/50
+    silicon/75
+    metaglass/85
+]
+name: Tungsten Drill
+consumes:
+{
+    power: 0.5
+    liquid: {
+        liquid: acid-sulfuric
+        amount: 0.1
+    }
+}
+category: production
