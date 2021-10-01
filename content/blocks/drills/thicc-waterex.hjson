@@ -13,7 +13,7 @@ description: "Using advanced compacted tech for faster extraction, consume lot o
 size: 4
 baseEfficiency: 1.5
 attribute: water
-name: Large Water Extractor
+name: Industrial Water Extractor
 pumpAmount: 0.81
 category: production
 liquidCapacity: 550
