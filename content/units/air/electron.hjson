@@ -2,6 +2,7 @@ name: Pin
 speed: 0.11
 hitSize: 7
 commandLimit: 6
+type: flying
 engineOffset: 4
 drag: 0.01
 health: 130

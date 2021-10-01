@@ -1,0 +1,97 @@
+type: flying
+speed: 0.15
+hitSize: 8
+commandLimit: 9
+engineOffset: 5.75
+drag: 0.015
+rotateSpeed: 10
+health: 450
+itemCapacity: 45
+description: "A Faster, stronger Pin"
+name: Bolt
+circleTarget: true
+mineSpeed: 3
+mineTier: 2
+accel: 0.08
+buildSpeed: 0.3
+abilities:
+[
+    {
+        type: ShieldRegenFieldAbility
+        amount: 10
+        max: 50
+        reload: 45
+        range: 16
+        activeEffect: {
+            type: WaveEffect
+            lifetime: 30
+            sides: 4
+            colorFrom: a9d8ff
+            colorTo: a9d8ff
+            strokeFrom: 3
+            strokeTo: 0
+            sizeFrom: 0
+            sizeTo: 16
+        }
+        applyEffect: {
+            type: WaveEffect
+            lifetime: 20
+            sides: 4
+            colorFrom: a9d8ff
+            colorTo: a9d8ff
+            strokeFrom: 3
+            strokeTo: 0
+            sizeFrom: 8
+            sizeTo: 0
+        }
+    }
+]
+[
+    {
+        name: le-pin-missiler
+        inaccuracy: 360
+        shots: 5
+        shotDelay: 3
+        y: 3.5
+        x: 0
+        rotate: true
+        autoTarget: true
+        controllable: false
+        reload: 20
+        ejectEffect: {
+            type: WaveEffect
+            lifetime: 20
+            sizeFrom: 0
+            sizeTo: 15
+            sides: -1
+            strokeFrom: 6
+            strokeTo: 0
+            colorFrom: a9d8ff
+            colorTo: a9d8ff
+
+        }
+
+        bullet: {
+            type: MissileBulletType
+            backColor: 98ffa9
+            collidesTeam: true
+            frontColor: ffffff
+            trailColor: a9d8ff
+            trailLength: 7
+            trailWidth: 1.5
+            width: 3
+            height: 5
+            homingRange: 56
+            homingPower: 0.2
+            healPercent: 3
+            drag: -0.05
+            lifetime: 60
+            damage: 10
+            keepVelocity: false
+            maxRange: 120
+            lightning: 2
+            lightningDamage: 5
+            lightningLength: 8
+        }
+    }
+]
