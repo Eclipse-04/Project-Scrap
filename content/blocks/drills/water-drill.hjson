@@ -1,0 +1,27 @@
+type: Drill
+hardnessDrillMultiplier: 30
+liquidBoostIntensity: 1
+tier: 2
+drillTime: 22.5
+description: "A fast drill, mine at extremely fast speed, but can only mine low ore"
+size: 2
+health: 550
+liquidCapacity: 70
+rotateSpeed: 2
+requirements:
+[
+    silicon/35
+    lead/25
+    copper/55
+    graphite/15
+    metaglass/25
+]
+name: Hydro Drill
+consumes:
+{
+    liquid: {
+        liquid: water
+        amount: 0.3
+    }
+}
+category: production

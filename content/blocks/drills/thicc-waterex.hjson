@@ -13,6 +13,7 @@ description: "Using advanced compacted tech for faster extraction, consume lot o
 size: 4
 baseEfficiency: 1.5
 attribute: water
+name: Large Water Extractor
 pumpAmount: 0.81
 liquidCapacity: 550
 consumes:
