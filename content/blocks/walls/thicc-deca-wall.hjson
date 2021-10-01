@@ -1,0 +1,16 @@
+type: Wall
+name: Large Deca Wall
+health: 5120
+description: "A very durable wall, absorb laser and release lightning on impact. Span Multiple Tile"
+requirements:
+[
+    deca/24
+    surge-alloy/8
+]
+size: 2
+category: defense
+lightningChance: 0.5
+lightningDamage: 15
+chanceDeflect: 1
+insulated: true
+absorbLasers: true32

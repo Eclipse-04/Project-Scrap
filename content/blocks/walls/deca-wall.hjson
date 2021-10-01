@@ -1,0 +1,13 @@
+type: Wall
+name: Deca Wall
+health: 1280
+description: "A very durable wall, absorb laser and release lightning on impact"
+requirements:
+[
+    deca/6
+    surge-alloy/2
+]
+size: 1
+category: defense
+insulated: true
+absorbLasers: true
