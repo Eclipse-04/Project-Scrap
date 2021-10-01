@@ -15,6 +15,7 @@ baseEfficiency: 1.5
 attribute: water
 name: Large Water Extractor
 pumpAmount: 0.81
+category: production
 liquidCapacity: 550
 consumes:
 {
