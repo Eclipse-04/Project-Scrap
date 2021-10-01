@@ -6,6 +6,7 @@ range: 30
 reload: 20
 shootSound: flame
 health: 750
+type: ItemTurret
 size: 2
 requirements:
 [
