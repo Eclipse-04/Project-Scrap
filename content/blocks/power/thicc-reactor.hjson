@@ -1,0 +1,36 @@
+type: ImpactReactor
+name: Fushion Reactor
+description: "Generate lots of power"
+consumes: 
+{   
+    power: 41
+    items: {
+        items: [
+            sulfuric-capsule/1
+        ]
+    }
+    liquid: {
+        liquid: water
+        amount: 3
+    }
+}
+requirements:
+[
+    tungsten/550
+    thorium/350
+    metaglass/150
+    silic-glass/260
+    steel/150
+    plastanium/150
+    fixed-deca/150
+]
+category: power
+health: 9250
+itemDuration: 45
+liquidCapacity: 150
+itemCapacity: 30
+size: 4
+plasma1: db8960ae
+plasma2: cc612bae
+powerProduction: 160.33
+hasLiquids: true
