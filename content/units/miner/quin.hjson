@@ -66,7 +66,6 @@ weapons:
             strokeTo: 0
             colorFrom: ffffff
             colorTo: 98ffa9
-
         }
 
         bullet: {

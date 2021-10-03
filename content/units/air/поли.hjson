@@ -1,0 +1,130 @@
+type: flying
+name: "Breux"
+description: "A better poly, durable poly, build extremly fast"
+controller: BuilderAI
+flying: true
+drag: 0.05
+rotateSpeed: 10
+itemCapacity: 80
+hitSize: 7
+accel: 0.1
+range: 180
+commandLimit: 12
+health: 950
+buildSpeed: 2.5
+engineOffset: 9.5
+engineSize: 5
+mineTier: 3
+speed: 3
+mineSpeed: 3.2
+abilities:
+[
+    {
+        type: ForceFieldAbility
+        radius: 30
+        regen: 1.5
+        max: 120
+        cooldown: 240
+    }
+    {
+        type: RepairFieldAbility
+        amount: 10
+        range: 80
+        reload: 180
+        healEffect: {
+            type: ParticleEffect
+            colorFrom: ffffffae
+            colorTo: 98ffa9ff
+            region: industrial-heal-small
+            sizeFrom: 8
+            sizeTo: 0
+            lifetime: 120
+        }
+    }
+]
+buildBeamOffset: 3.25
+weapons:
+[
+    {
+        name: поли-небольшой-пистолет
+        inaccuracy: 0
+        reload: 60
+        shots: 3
+        shotDelay: 7
+        mirror: true
+        alternate: true
+        x: 5.75
+        y: 2.5
+        rotate: true
+        ejectEffect: {
+            type: ParticleEffect
+            colorFrom: 98ffa9
+            colorTo: 98ffa900
+            lifetime: 45
+            sizeFrom: 8
+            sizeTo: 0
+        }
+        bullet: {
+            type: SapBulletType
+            length: 55
+            damage: 10
+            hitColor: 98ffa9
+            lightColor: 98ffa9
+            knockback: -1
+            width: 0.55
+            color: 98ffa9
+            sapStrength: 0.7
+            hitEffect: hitLiquid
+            shootEffect: shootLiquid
+            maxRange: 55
+        }
+    }
+    {
+        name: поли-пистолет
+        inaccuracy: 5
+        reload: 30
+        rotate: true
+        mirror: true
+        ejectEffect: {
+            type: WaveEffect
+            lifetime: 20
+            sizeFrom: 0
+            sizeTo: 15
+            sides: 4
+            strokeFrom: 6
+            strokeTo: 0
+            colorFrom: ffffff
+            colorTo: 98ffa9
+        }
+        bullet: {
+            type: BasicBulletType
+            backColor: 98ffa9
+            frontColor: ffffff
+            width: 8
+            height: 8
+            spin: 5
+            trailLength: 10
+            maxRange: 180
+            trailWidth: 3
+            trailColor: 98ffa9
+            damage: 35
+            lifetime: 30
+            sprite: mine-bullet
+            fragBullets: 4
+            fragCone: 30
+            fragBullet: {
+                type: MissileBulletType
+                backColor: 98ffa9
+                healPercent: 3
+                collidesTeam: true
+                speed: 4
+                homingRange: 56
+                homingPower: 0.3
+                trailColor: 98ffa9
+                lifetime: 120
+                trailLength: 7
+                trailWidth: 1.5
+            }
+        }
+    }
+]

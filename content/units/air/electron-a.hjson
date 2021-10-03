@@ -45,8 +45,6 @@ abilities:
             sizeTo: 0
         }
     }
-]
-[
     {
         name: le-bolt-missiler
         inaccuracy: 360
