@@ -1,0 +1,13 @@
+speedMultiplier: 0.3
+variants: 1
+isLiquid: true
+type: Floor
+status: industrial-acid-sulfuric-melting
+statusDuration: 240
+drownTime: 90
+liquidDrop: acid-sulfuric
+liquidMultiplier: 1.2
+cacheLayer: water
+damageTaken: 0.3
+walkSound: industrial-sulfuric-react
+drownUpdateEffect: smoke
