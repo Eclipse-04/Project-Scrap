@@ -1,0 +1,15 @@
+damage: -3
+speedMultiplier: 1.2
+color: 98ffa9
+effect:
+{
+    type: ParticleEffect
+    lifetime: 45
+    particles: 2
+    sizeFrom: 8
+    sizeTo: 0
+    cone: 5
+    region: industrial-heal-small
+    colorto: 98ffa900
+    colorFrom: 98ffa9
+}
