@@ -1,6 +1,6 @@
 type: flying
 description: "h"
-accel: 0.06
+accel: 0.1
 health: 650
 drag: 0.07
 itemCapacity: 85
@@ -13,6 +13,16 @@ mineSpeed: 4.75
 flying: true
 abilities:
 [
+    {
+        type: MoveLightningAbility
+        minSpeed: 0.1
+        maxSpeed: 0.9
+        damage: 15
+        length: 16
+        offset: 5.75
+        color: a9d8ff
+        chance: 0.4
+    }
     {
         type: EnergyFieldAbility
         damage: 4

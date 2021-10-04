@@ -43,7 +43,7 @@ ammoTypes:
             region: industrial-arrow-trail
         }
         damage: 950
-        pierceDamageFactor: 0.9
+        pierceDamageFactor: 0.8
         length: 600
         type: RailBulletType
         updateEffectSeg: 12
