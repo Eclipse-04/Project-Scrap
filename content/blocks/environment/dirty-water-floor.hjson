@@ -1,0 +1,15 @@
+speedMultiplier: 0.3
+variants: 1
+isLiquid: true
+type: Floor
+status: wet
+statusDuration: 240
+drownTime: 140
+liquidDrop: dirty-water
+liquidMultiplier: 1.5
+cacheLayer: water
+editorIcon: industrial-dirty-water
+attributes:
+{
+    dirt: 0.7
+}

@@ -1,7 +1,7 @@
 speedMultiplier: 0.3
 variants: 1
 isLiquid: true
-type: Floor
+type: ShallowLiquid
 status: industrial-acid-sulfuric-melting
 statusDuration: 240
 drownTime: 90
