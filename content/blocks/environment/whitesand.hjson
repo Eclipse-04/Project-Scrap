@@ -1,0 +1,8 @@
+type: OreBlock
+mapColor: d6ccc5
+itemDrop: sand
+name: White Sand
+attributes:
+{
+    oil: 0.4
+}
