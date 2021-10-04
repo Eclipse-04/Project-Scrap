@@ -1,0 +1,101 @@
+type: flying
+name: "Beau"
+description: "WIP unit, incomplete description"
+controller: DefenderAI
+flying: true
+drag: 0.1
+rotateSpeed: 10
+itemCapacity: 220
+hitSize: 10.5
+accel: 0.1
+commandLimit: 6
+health: 1250
+buildSpeed: 3
+engineOffset: 11.75
+lowAltitude: true
+engineSize: 4.5
+range: 50
+mineTier: 3
+speed: 2.7
+mineSpeed: 3.5
+payloadCapacity: 12
+abilities:
+[
+    {
+        type: ShieldRegenFieldAbility
+        amount: 25
+        reload: 90
+        max: 250
+        range: 80
+    }
+    {
+        type: StatusFieldAbility
+        effect: industrial-healing
+        duration: 240
+        reload: 120
+        range: 80
+        applyEffect: heal
+        activeEffect: healWaveDynamic
+        effectY: 10
+    }
+]
+weapons:
+[
+    {
+        name: ᛗᛖᚷᚨ-ᛒᛁᚷ-ᚷᚢᚾ
+        x: 8
+        y: -0.5
+        type: RepairBeamWeapon
+        targetBuildings: true
+        repairSpeed: 0.3
+        beamWidth: 2
+        pulseRadius: 12
+        rotate: true
+        mirror: true
+        pulseStroke: 4
+    }
+    {
+        name: ᛗᛖᚷᚨ-ᛋᛗᚨᛚᛚ-ᚷᚢᚾ
+        x: 5.25
+        y: 7.75
+        inaccuracy: 3
+        shots: 4
+        reload: 60
+        shotsDelay: 3.5
+        rotate: true
+        mirror: true
+        predictTarget: false
+        bullet: {
+            sapStrength: 0.85
+            length: 55
+            healPercent: 5.5
+            lifetime: 30
+            damage: 6
+            collidesTeam: true
+            despawnEffect: none
+            shootEffect: shootSmall
+            knockback: 1.5
+            hitColor: 98ffa9
+            backColor: 98ffa9
+            width: 0.55
+            maxRange: 55
+        }
+    }
+    {
+        name: ᛗᛖᚷᚨ-ᛗᛖᛞᛁᚢᛗ-ᚷᚢᚾ
+        y: 10.25
+        x: 3.5
+        reload: 15
+        rotate: true
+        mirror: true
+        bullet: {
+            type: LaserBoltBulletType
+            lifetime: 35
+            healPercent: 3
+            collidesTeam: true
+            backColor: 98ffa9
+            maxRange: 80
+            speed: 3
+        }
+    }
+]
