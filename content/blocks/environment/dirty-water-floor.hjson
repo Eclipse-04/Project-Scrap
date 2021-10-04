@@ -1,5 +1,5 @@
 speedMultiplier: 0.3
-variants: 1
+variants: 0
 isLiquid: true
 type: Floor
 status: wet
