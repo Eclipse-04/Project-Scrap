@@ -1,4 +1,4 @@
-type: OreBlock
+type: Floor
 mapColor: d6ccc5
 itemDrop: sand
 name: White Sand
