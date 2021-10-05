@@ -1,0 +1,5 @@
+type: RainWeather
+opacityMultiplier: 0.8
+status: industrial-acid-sulfuric-melting
+color: 88bdbd
+liquid: acid-sulfuric
