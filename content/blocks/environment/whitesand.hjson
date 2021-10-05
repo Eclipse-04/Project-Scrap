@@ -6,3 +6,4 @@ attributes:
 {
     oil: 0.4
 }
+playerUnmineable: true

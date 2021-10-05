@@ -1,4 +1,4 @@
-speedMultiplier: 0.7
+speedMultiplier: 0.3
 variants: 0
 isLiquid: true
 type: Floor
@@ -7,7 +7,7 @@ statusDuration: 240
 liquidDrop: acid-sulfuric
 liquidMultiplier: 1.2
 cacheLayer: water
-damageTaken: 0.3
+damageTaken: 0.4
 walkSound: industrial-sulfuric-react
 drownUpdateEffect: smoke
-shallow: true
+drownTime: 240
