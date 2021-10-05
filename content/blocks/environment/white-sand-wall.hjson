@@ -1,0 +1,4 @@
+type: StaticWall
+variants: 2
+name: White Sand Wall
+mapColor: b8b0ab
