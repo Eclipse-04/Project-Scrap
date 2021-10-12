@@ -3,7 +3,7 @@ description: "A Larger flame thrower, can cause lot of fire"
 shots: 3
 spread: 8
 range: 30
-reload: 20
+reloadTime: 20
 shootSound: flame
 health: 750
 type: ItemTurret
