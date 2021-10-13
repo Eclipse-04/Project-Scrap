@@ -1,12 +1,11 @@
-speedMultiplier: 0.7
-variants: 0
+speedMultiplier: 0.3
+variants: 3
 isLiquid: true
 type: Floor
 status: wet
 statusDuration: 240
-drownTime: 0
+drownTime: 140
 liquidDrop: dirty-water
-liquidMultiplier: 1.5
 cacheLayer: water
 attributes:
 {
