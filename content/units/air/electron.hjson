@@ -4,8 +4,11 @@ hitSize: 7
 commandLimit: 6
 type: flying
 flying: true
+rotateSpeed: 15
 engineOffset: 4
+itemCapacity: 45
 drag: 0.01
+hitSize: 5.75
 health: 130
 description: "A Hit-and-run unit, slowly cover itself with a weak shield"
 circleTarget: true
