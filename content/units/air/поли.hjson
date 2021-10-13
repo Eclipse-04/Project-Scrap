@@ -82,7 +82,7 @@ weapons:
     {
         name: поли-пистолет
         inaccuracy: 5
-        reload: 30
+        reload: 25
         rotate: true
         mirror: true
         ejectEffect: {
@@ -122,8 +122,10 @@ weapons:
                 speed: 4
                 homingRange: 56
                 homingPower: 0.3
+                homingDelay: 30
+                damage: 7
                 trailColor: 98ffa9
-                lifetime: 120
+                lifetime: 100
                 trailLength: 7
                 trailWidth: 1.5
             }

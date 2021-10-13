@@ -2,12 +2,14 @@ type: flying
 description: "h"
 accel: 0.1
 health: 650
+flying: true 
 drag: 0.07
 itemCapacity: 85
 commandLimit: 6
 buildSpeed: 1.3
 engineOffset: 6.75
 hitSize: 16
+speed: 2
 range: 104
 mineSpeed: 4.75
 flying: true
@@ -16,7 +18,7 @@ abilities:
     {
         type: MoveLightningAbility
         minSpeed: 0.1
-        maxSpeed: 0.9
+        maxSpeed: 1.2
         damage: 15
         length: 16
         offset: 5.75
