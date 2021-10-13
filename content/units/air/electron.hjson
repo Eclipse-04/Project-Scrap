@@ -15,8 +15,8 @@ abilities:
 [
     {
         type: MoveLightningAbility
-        minSpeed: 0.1
-        maxSpeed: 0.6
+        minSpeed: 2
+        maxSpeed: 4
         damage: 15
         length: 16
         color: a9d8ff
@@ -30,6 +30,7 @@ abilities:
         length: 0
         color: a9d8ff
         chance: 1
+        shootSound: none
         shootEffect: {
             type: ParticleEffect
             colorFrom: a9d8ffff
