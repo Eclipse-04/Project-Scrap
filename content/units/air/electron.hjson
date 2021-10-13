@@ -15,11 +15,31 @@ abilities:
     {
         type: MoveLightningAbility
         minSpeed: 0.1
-        maxSpeed: 0.3
+        maxSpeed: 0.6
         damage: 15
         length: 16
         color: a9d8ff
-        chance: 0.1
+        chance: 0.15
+    }
+    {
+        type: MoveLightningAbility
+        minSpeed: 0
+        maxSpeed: 0
+        damage: 0
+        length: 0
+        color: a9d8ff
+        chance: 1
+        shootEffect: {
+            type: ParticleEffect
+            colorFrom: a9d8ffff
+            colorTo: 77b4e600
+            lifetime: 60
+            particles: 1
+            length: 0
+            lightColor: a9d8ff
+            sizeFrom: 8
+            region: industrial-electron-trail
+        }
     }
     {
         type: ShieldRegenFieldAbility

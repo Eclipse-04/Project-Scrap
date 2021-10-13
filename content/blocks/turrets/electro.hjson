@@ -3,8 +3,8 @@ requirements:
 [
     tungsten/60
     silicon/55
-    steel/35
-    lead/25
+    steel/45
+    lead/95
 ]
 range: 180
 changeTime: 20
