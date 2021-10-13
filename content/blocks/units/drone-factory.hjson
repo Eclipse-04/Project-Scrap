@@ -4,45 +4,55 @@ name: Drone Factory
 health: 220
 consumes:
 {
-    power: 1.2
+  power: 1.2
 }
 plans:
 [
-    {
-      unit: drone
-      time: 1200
-      requirements:
-      [
-        silicon/35
-        lead/40
-        graphite/35
-      ]
-    }
-    {
-      unit: repairer
-      time: 900
-      requirements:
-      [
-        silicon/45
-        lead/55
-        graphite/15
-      ]
-    }
-    {
-      unit: copter-a
-      time: 900
-      requirements:
-      [
-        silicon/35
-        lead/55
-        graphite/20
-      ]
-    }
+  {
+    unit: drone
+    time: 1200
+    requirements:
+    [
+      silicon/35
+      lead/40
+      graphite/35
+    ]
+  }
+  {
+    unit: repairer
+    time: 900
+    requirements:
+    [
+      silicon/45
+      lead/55
+      graphite/15
+    ]
+  }
+  {
+    unit: copter-a
+    time: 900
+    requirements:
+    [
+      silicon/35
+      lead/55
+      graphite/20
+    ]
+  }
+  {
+    unit: electron
+    time: 900
+    requirements:
+    [
+      silicon/25
+      titanium/15
+    ]
+  }
 ]
 requirements:
 [
   lead/85
   copper/85
   silicon/55
+  tungsten/25
 ]
 category: units
