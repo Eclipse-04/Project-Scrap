@@ -1,5 +1,5 @@
 type: flying
-speed: 0.15
+speed: 4
 hitSize: 8
 commandLimit: 9
 engineOffset: 5.75

@@ -1,8 +1,9 @@
 name: Pin
-speed: 0.11
+speed: 4
 hitSize: 7
 commandLimit: 6
 type: flying
+flying: true
 engineOffset: 4
 drag: 0.01
 health: 130

@@ -13,7 +13,7 @@ commandLimit: 12
 health: 950
 buildSpeed: 2.5
 engineOffset: 9.5
-engineSize: 5
+engineSize: 2.5
 mineTier: 3
 speed: 3
 mineSpeed: 3.2
@@ -109,6 +109,8 @@ weapons:
             trailColor: 98ffa9
             damage: 35
             lifetime: 30
+            hitEffect: heal
+            despawnEffect: heal
             sprite: mine-bullet
             fragBullets: 4
             fragCone: 30

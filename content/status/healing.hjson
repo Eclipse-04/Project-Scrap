@@ -9,7 +9,9 @@ effect:
     sizeFrom: 8
     sizeTo: 0
     cone: 5
+    length: 16
     region: industrial-heal-small
     colorto: 98ffa900
+    lightColor: 98ffa9ae
     colorFrom: 98ffa9
 }

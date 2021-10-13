@@ -13,7 +13,7 @@ health: 1250
 buildSpeed: 3
 engineOffset: 11.75
 lowAltitude: true
-engineSize: 4.5
+engineSize: 3.5
 range: 50
 mineTier: 3
 speed: 2.7
@@ -48,11 +48,10 @@ weapons:
         type: RepairBeamWeapon
         targetBuildings: true
         repairSpeed: 0.3
-        beamWidth: 2
+        beamWidth: 0.8
         pulseRadius: 12
         rotate: true
         mirror: true
-        pulseStroke: 4
     }
     {
         name: ᛗᛖᚷᚨ-ᛋᛗᚨᛚᛚ-ᚷᚢᚾ
@@ -67,7 +66,7 @@ weapons:
         predictTarget: false
         bullet: {
             sapStrength: 0.85
-            length: 55
+            length: 65
             healPercent: 5.5
             lifetime: 30
             damage: 6
@@ -78,7 +77,7 @@ weapons:
             hitColor: 98ffa9
             backColor: 98ffa9
             width: 0.55
-            maxRange: 55
+            maxRange: 60
         }
     }
     {
@@ -93,9 +92,11 @@ weapons:
             lifetime: 35
             healPercent: 3
             collidesTeam: true
+            width: 1.5
             backColor: 98ffa9
+            shootEffect: heal
             maxRange: 80
-            speed: 3
+            speed: 4
         }
     }
 ]
