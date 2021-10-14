@@ -43,6 +43,7 @@ abilities:
     }
 ]
 buildBeamOffset: 3.25
+lowAltitude: true
 weapons:
 [
     {
@@ -84,13 +85,15 @@ weapons:
         inaccuracy: 5
         reload: 25
         rotate: true
+        x: 5.75
+        y: -5.5
         mirror: true
         ejectEffect: {
             type: WaveEffect
-            lifetime: 20
+            lifetime: 15
             sizeFrom: 0
             sizeTo: 15
-            sides: 4
+            sides: -1
             strokeFrom: 6
             strokeTo: 0
             colorFrom: ffffff
