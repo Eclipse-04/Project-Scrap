@@ -14,7 +14,7 @@ health: 560
 buildSpeed: 1.5
 engineOffset: 6.5
 lowAltitude: true
-engineOffset: 10
+engineOffset: 8.75
 engineSize: 4
 mineTier: 4
 speed: 2.5

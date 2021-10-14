@@ -1,0 +1,79 @@
+type: flying
+name: "Large gamma (WIP name, will be changed)"
+health: 800
+controller: BuilderAI
+flying: true
+speed: 5
+accel: 0.2
+rotateSpeed: 8
+armor: 6
+itemCapacity: 120
+commandLimit: 9
+lowAltitude: true
+
+drag: 0.08
+range: 120
+abilities: 
+[
+    {
+        type: ShieldRegenFieldAbility
+        amount: 10
+        reload: 60
+        range: 60
+        max: 60
+    }
+]
+//balacing soon™️
+weapons:
+[
+    {
+        name: beam-boom-bamm-le-great-beanos
+        y: 5
+        x: 0
+        mirror: false
+        rotate: false
+        reload: 45
+        chargeTime: 30
+        shootShake: 1
+        chargeEffect: industrial-diamond
+        shootEffect: {
+            type: MultiEffect
+            effects: [
+                {
+                    type: ParticleEffect
+                    particles: 1
+                    length: 0
+                    spin: 8
+                    sizeFrom: 0
+                    sizeTo: 16
+                    colorFrom: ffd37fff
+                    colorTo: ffd37f00
+                    lifeTime: 25
+                }
+                {
+                    type: ParticleEffect
+                    particles: 7
+                    length: 18
+                    colorFrom: ffd37f
+                    colorTo: ffd37f
+                    lifeTime: 15
+                    line: true
+                    lenTo: 0
+                    cone: 50
+                    lenFrom: 4
+                }
+            ]
+        }
+        shootSound: laser
+        bullet: {
+            buildingDamageMultiplier: 0.05
+            damage: 35
+            lifetime: 30
+            width: 8
+            length: 100
+            maxRange: 95
+            type: LaserBulletType
+            colors: [d4816b, ffd37f, ffffff]           
+        }
+    }
+]

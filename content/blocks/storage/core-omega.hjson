@@ -1,0 +1,19 @@
+type: CoreBlock
+unitType: gamma-nt
+requirements:
+[
+    copper/14000
+    silicon/9000
+    steel/7500
+    graphite/4500
+    silic-glass/2500
+    lead/13000
+]
+health: 12500
+size: 6
+unitCapModifier: 48
+category: effect
+research: core-nucleus
+name: Neuron
+description: "A huge core, very durable, can contains a large amount of items"
+itemCapacity: 52000
