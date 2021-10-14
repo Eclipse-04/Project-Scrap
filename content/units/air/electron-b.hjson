@@ -34,6 +34,8 @@ abilities:
         healPercent: 0
         maxTargets: 4
         rotateSpeed: 4
+        status: industrial-electrocuted
+        color: a9d8ff
         effectRadius: 3
         y: 6.25
         x: 0
@@ -57,6 +59,7 @@ weapons:
         name: electron-b-emp
         reload: 30
         y: -1.75
+        mirror: false
         x: 0
         shots: 1
         rotate: true
@@ -67,7 +70,7 @@ weapons:
             timeIncrease: 1.7
             applyEffect: none
             damage: 35
-            trailColor: trailColor
+            trailColor: a9d8ff
             radius: 16
             maxRange: 104
             damage: 15
@@ -80,7 +83,7 @@ weapons:
             effects: [
                 {
                     type: WaveEffect
-                    lifetime: 20
+                    lifetime: 15
                     sizeFrom: 0
                     sizeTo: 15
                     sides: 4
