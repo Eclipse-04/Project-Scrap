@@ -1,0 +1,23 @@
+type: ItemTurret
+spread: 2.75
+inaccuracy: 4
+recoilAmount: 2.5
+alternate: true
+reload: 50
+range: 85
+category: turret
+powerUse: 1.3
+size: 2
+health: 750
+ammoTypes:
+{
+    sulfuric-capsule: {
+        lifetime: 70
+        speed: 3
+        height: 10
+        width: 8
+        type: BasicBulletType
+        shrinkY: -2
+        shrinkX: -2
+    }
+}
