@@ -5,6 +5,7 @@ controller: BuilderAI
 flying: true
 speed: 5
 accel: 0.2
+buildSpeed: 2.3
 rotateSpeed: 8
 engineOffset: 9.25
 engineSize: 2.25
