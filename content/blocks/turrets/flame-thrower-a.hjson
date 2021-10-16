@@ -24,9 +24,8 @@ ammoTypes:
         speed: 3.5
         lifetime: 70
         status: burning
-        makefire: true
         damage: 7
         maxRange: 37
-        fireTrailChance: 0.03
+        fireTrailChance: 0.08
     }
 }
