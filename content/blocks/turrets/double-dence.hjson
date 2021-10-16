@@ -1,11 +1,14 @@
 type: ItemTurret
 spread: 2.75
+name: big gun (wip)
 inaccuracy: 4
 recoilAmount: 2.5
 alternate: true
 reload: 50
-range: 85
+shots: 2
+range: 185
 category: turret
+shootY: 4.25
 powerUse: 1.3
 requirements:
 [
@@ -18,21 +21,29 @@ health: 750
 ammoTypes:
 {
     sulfuric-capsule: {
-        lifetime: 70
+        lifetime: 35
         speed: 3
         height: 10
         width: 8
         type: BasicBulletType
-        shrinkY: -2
-        shrinkX: -2
+        shrinkY: -1
+        shrinkX: -1
         fragBullets: 9
         frontColor: ffffff00
         collides: false
         collidesAir: true
+        trailLength: 10
+        trailColor: 88bdbdae
         backColor: ffffffff
         fragCone: 130
         sprite: industrial-sulfur-cap
         maxRange: 80
         lightOpacity: 0
+        fragBullet: {
+            type: LiquidBulletType
+            liquid: acid-sulfuric
+            orbSize: 3.8
+            lifetime: 60
+        }
     }
 }
