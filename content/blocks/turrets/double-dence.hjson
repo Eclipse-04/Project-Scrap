@@ -31,5 +31,6 @@ ammoTypes:
         fragCone: 130
         sprite: industrial-sulfur-cap
         maxRange: 80
+        lightOpacity: 0
     }
 }
