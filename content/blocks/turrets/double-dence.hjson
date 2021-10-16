@@ -7,6 +7,12 @@ reload: 50
 range: 85
 category: turret
 powerUse: 1.3
+requirements:
+[
+    surge-alloy/75
+    titanium/125
+    lead/35
+]
 size: 2
 health: 750
 ammoTypes:
@@ -19,5 +25,11 @@ ammoTypes:
         type: BasicBulletType
         shrinkY: -2
         shrinkX: -2
+        fragBullets: 9
+        frontColor: ffffff00
+        backColor: ffffffff
+        fragCone: 130
+        sprite: industrial-sulfur-cap
+        maxRange: 80
     }
 }
