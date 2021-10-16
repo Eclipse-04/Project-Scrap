@@ -27,6 +27,8 @@ ammoTypes:
         shrinkX: -2
         fragBullets: 9
         frontColor: ffffff00
+        collides: false
+        collidesAir: true
         backColor: ffffffff
         fragCone: 130
         sprite: industrial-sulfur-cap
