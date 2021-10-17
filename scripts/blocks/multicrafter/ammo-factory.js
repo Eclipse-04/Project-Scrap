@@ -3,7 +3,7 @@ const multiLib=require("multi-lib/library");
 //also GenericSmelter.SmelterBuild instead GenericCrafter.GenericCrafterBuild
 //                                                                           ▼this has to be same with .json file name
 //
-const multi=multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafterBuild,"multi",[
+const multi=multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafterBuild,"ammo-factory",[
     /*default form for each recipes. You can change values.
     {
         input:{
@@ -62,16 +62,4 @@ const multi=multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafterBu
 },
 /*this is Object constructor. This way is much better than literal way{a:123}
 you can replace this with {} if you don't want to modify entity*/
-function Extra(){
-    /*you can use customUpdate=function(){}. this function excuted before update()
-    also this.draw=function(){}
-    you can customize entity here.
-    ex)
-    this._myProp=0;
-    this.getMyProp=function(){
-        return this._myProp;
-    };
-    this.setMyProp=function(a){
-        this._myProp=a;
-    };*/
-});
+function Extra(){});

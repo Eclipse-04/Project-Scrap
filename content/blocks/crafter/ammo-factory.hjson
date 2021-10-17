@@ -1,0 +1,15 @@
+name: Ammo Assembler
+description: "Make ammo"
+size: 3
+itemCapacity: 40
+liquidCapacity: 50
+health: 750
+requirements:
+[
+    copper/350
+    titanium/150
+    tungsten/120
+    steel/200
+    graphite/90
+]
+category: crafting 
