@@ -7,3 +7,4 @@ It could be fun, ill leave the judgment of whether or not it is fun to you. If y
 Discord @https://discord.gg/JHu9grmxyK"
 version: 0.2.4.5
 minGameVersion: 131
+dependencies:["multi-lib"]
