@@ -18,44 +18,53 @@ const multi=multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafterBu
         },
         craftTime:80,
     },*/
-    {//1  you can skip recipe properties
-        output:{
-            power:5.25
+    {//1
+        input:{
+            items:["coal/3","industrial-iron/2"],
+            liquids:["water/2"],
+            power: 2.5
         },
-        craftTime:12
+        output:{
+            items:["industrial-standard-ammo/2"],
+            liquids:["industrial-dirty-water/1"],
+        },
+        craftTime: 90
+    },
+    {//1
+        input:{
+            items:["coal/3","industrial-iron/2"],
+            liquids:["water/2"],
+            power: 2.5
+        },
+        output:{
+            items:["industrial-standard-ammo/2"],
+            liquids:["industrial-dirty-water/1"],
+        },
+        craftTime: 90
     },
     {//2
         input:{
-            items:["coal/1","sand/1"],
-            liquids:["water/5"],
-            power:1
+            items:["coal/4","industrial-steel/2"],
+            liquids:["water/4"],
+            power: 3.7
         },
         output:{
-            items:["thorium/1","surge-alloy/2"],
-            liquids:["slag/5"],
+            items:["industrial-steel-ammo/2"],
+            liquids:["industrial-dirty-water/3"],
         },
-        craftTime:60
+        craftTime: 160
     },
     {//3
         input:{
-            items:["pyratite/1","blast-compound/1"],
-            liquids:["water/5"],
-            power:1
+            items:["pyratite/2","lead/4"],
+            liquids:["water/3"],
+            power: 2.7
         },
         output:{
-            items:["scrap/1","plastanium/2","spore-pod/2"],
-            liquids:["oil/5"],
+            items:["industrial-pyra-ammo/4"],
+            liquids:["industrial-dirty-water/1.5"],
         },
-        craftTime:72
-    },
-    {//4
-        input:{
-            items:["sand/1"],
-        },
-        output:{
-            items:["silicon/1"],
-        },
-        craftTime:30
+        craftTime: 100
     },
 ],{
     /*you can customize block here. ex) load()*/
