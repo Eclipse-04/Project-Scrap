@@ -1,4 +1,4 @@
-const multiLib=require("multi-lib/library");
+const multiLib = require("multi-lib");
 //you can use GenericSmelter instead GenericCrafter
 //also GenericSmelter.SmelterBuild instead GenericCrafter.GenericCrafterBuild
 //                                                                           ▼this has to be same with .json file name
