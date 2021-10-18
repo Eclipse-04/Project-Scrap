@@ -30,18 +30,6 @@ const multi=multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafterBu
         },
         craftTime: 90
     },
-    {//1
-        input:{
-            items:["coal/3","industrial-iron/2"],
-            liquids:["water/2"],
-            power: 2.5
-        },
-        output:{
-            items:["industrial-standard-ammo/2"],
-            liquids:["industrial-dirty-water/1"],
-        },
-        craftTime: 90
-    },
     {//2
         input:{
             items:["coal/4","industrial-steel/2"],
