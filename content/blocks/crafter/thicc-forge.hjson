@@ -1,0 +1,19 @@
+name: Furnace
+description: "Make alloys"
+size: 4
+itemCapacity: 60
+liquidCapacity: 45
+health: 750
+requirements:
+[
+    copper/750
+    lead/625
+    surge-alloy/145
+    titanium/150
+    tungsten/120
+    silicon/45
+    silic-glass/250
+    steel/450
+    graphite/250
+]
+category: crafting 
