@@ -1,5 +1,5 @@
 type: OreBlock
 mapColor: ab8580
-itemDrop: sulfur
-name: Iron Ore
+itemDrop: industrial-sulfur
+name: Sulfur Rock
 playerUnmineable: true
