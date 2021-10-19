@@ -31,7 +31,7 @@ const multi=multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafterBu
     },
     {//2
         input:{
-            items:["lead/5","industrial-copper/6","industrial-iron/5","silicon/4"],
+            items:["lead/5","copper/6","industrial-iron/5","silicon/4"],
             power: 4.7
         },
         output:{
