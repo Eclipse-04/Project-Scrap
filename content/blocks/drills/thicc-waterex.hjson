@@ -14,7 +14,7 @@ size: 4
 baseEfficiency: 1.5
 attribute: water
 name: Industrial Water Extractor
-pumpAmount: 0.81
+pumpAmount: 1.2
 category: production
 liquidCapacity: 550
 consumes:
