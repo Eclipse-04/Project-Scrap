@@ -35,8 +35,7 @@ const multi=multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafterBu
             power: 4.7
         },
         output:{
-            items:["surge-alloy/4"],
-            liquids:["industrial-watse-metal/3"],
+            items:["surge-alloy/4","industrial-watse-metal/3"],
         },
         craftTime: 130
     },
