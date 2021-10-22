@@ -5,3 +5,4 @@
 <br />It could be fun, ill leave the judgment of whether or not it is fun to you. If you find any issues, please open a issue.
 <br />Discord @https://discord.gg/JHu9grmxyK 
 <br />achoo
+<br />Extension: EclipseTheOldOne/Industrial-Processing
