@@ -1,0 +1,19 @@
+/*
+category: power
+maxNodes: 250
+description: "A large coil that transfer power to nearby building"
+laserColor1: ffffff00
+laserColor2: ffffff00
+health: 750
+name: Magnetic Coil
+size: 3
+laserRange: 25
+research: surge-tower
+requirements:
+[
+    lead/110
+    tungsten/55
+    surge-alloy/50
+    silicon/120
+]
+*/
