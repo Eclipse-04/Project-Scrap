@@ -1,0 +1,15 @@
+type: Floor
+variants: 0
+isLiquid: true
+liquidMultiplier: 1.5
+cacheLayer: water
+speedMultiplier: 0.3
+liquidDrop: dirty-water
+status: wet
+statusDuration: 240
+drownTime: 240
+attributes:
+{
+    dirt: 1
+}
+name: Deep Muddy Water
