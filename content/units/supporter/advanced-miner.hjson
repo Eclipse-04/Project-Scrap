@@ -1,0 +1,23 @@
+type: flying
+name: "Tres"
+description: "Mines ores. Serves as an indirect upgrade to the Mono."
+controller: MinerAI
+health: 220
+flying: true
+speed: 2.1
+range: 50
+commandLimit: 3
+mineTier: 2 
+mineSpeed: 6 
+accel: 0.5
+itemCapacity: 50
+abilities: 
+[
+    {
+        type: RepairFieldAbility
+        amount: 10
+        reload: 30
+        range: 56
+    }
+]
+payloadCapacity: 1
