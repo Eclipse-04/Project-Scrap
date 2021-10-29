@@ -1,0 +1,13 @@
+type: Router
+health: 60
+category: distribution
+research: router
+description: "Act like a router, but hold a small buffer amount, still clog tho"
+speed: 10
+requirements:
+[
+    iron/6
+    copper/3
+]
+itemCapacity: 20
+name: Buffer
