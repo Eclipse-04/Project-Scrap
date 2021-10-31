@@ -18,8 +18,7 @@ craftTime: 30
 requirements:
 [
     copper/25
-    graphite/35
-    metaglass/15
+    graphite/10
 ]
 drawer: drawRotator
 category: crafting
