@@ -6,3 +6,4 @@
 <br />Discord @https://discord.gg/JHu9grmxyK 
 <br />achoo
 <br />Extension: EclipseTheOldOne/Industrial-Processing
+<br />Support Vietnamese
