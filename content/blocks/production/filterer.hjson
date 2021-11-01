@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: AttributeCrafter
 outputItem: scrap/2
 health: 150
 size: 2
@@ -22,3 +22,5 @@ requirements:
 ]
 drawer: drawRotator
 category: crafting
+attribute: dirt
+maxBoost: 2.5
