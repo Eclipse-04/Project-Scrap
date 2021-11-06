@@ -1,0 +1,13 @@
+/*
+type: NuclearReactor
+requirements:
+[
+    industrial-steel/275
+    industrial-tungsten/125
+    surge-alloy/75
+    silicon/350
+    graphite/250
+]
+health: 2250
+size: 4
+*/
