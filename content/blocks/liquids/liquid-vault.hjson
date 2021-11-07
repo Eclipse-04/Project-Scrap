@@ -13,4 +13,4 @@ requirements:
     metaglass/55
 ]
 category: liquid
-buildCostMultiplier: 2.3
+buildCostMultiplier: 0.5

@@ -1,0 +1,13 @@
+type: LiquidRouter
+name: Liquid Tank
+description: "a small liquid tank used for buffer"
+size: 1
+health: 120
+liquidCapacity: 120
+requirements:
+[
+    meta-glass/12
+    graphite/4
+]
+category: liquid
+buildCostMultiplier: 1
