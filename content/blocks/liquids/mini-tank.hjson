@@ -6,7 +6,7 @@ health: 120
 liquidCapacity: 120
 requirements:
 [
-    meta-glass/12
+    metaglass/12
     graphite/4
 ]
 category: liquid

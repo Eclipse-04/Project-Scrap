@@ -5,7 +5,7 @@ health: 950
 requirements:
 [
     tungsten/90
-    steel75
+    steel/75
     silic-glass/75
     silicon/60
     plastanium/55
