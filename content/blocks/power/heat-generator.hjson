@@ -1,21 +1,20 @@
-name: Heat generator
+name: Liquid Heat Generator
 size: 2
 health: 550
 requirements:
 [
-    copper/150
-    lead/120
-    silicon/60
-    titanium/25
-    graphite/45
+    copper/75
+    lead/35
+    silicon/35
+    graphite/25
 ]
 hasPower: true
 hasItems: false
 hasLiquids: true
-powerProduction: 9.16
+powerProduction: 5.5
 defaults:false
 minItemEfficiency: 1000
-maxLiquidGenerate: 1
+maxLiquidGenerate: 0.3
 minLiquidEfficiency: 1
 randomlyExplode:false
 heatColor: ffffff00

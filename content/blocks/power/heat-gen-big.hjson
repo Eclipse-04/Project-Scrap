@@ -1,0 +1,24 @@
+name: Large Liquid Heat Generator
+description: "A larger heat generator unit that can generate heat more effective"
+size: 3
+health: 950
+requirements:
+[
+    tungsten/90
+    steel75
+    silic-glass/75
+    silicon/60
+    plastanium/55
+]
+hasPower: true
+hasItems: false
+hasLiquids: true
+powerProduction: 22
+defaults: false
+minItemEfficiency: 10000
+maxLiquidGenerate: 0.7
+minLiquidEfficiency: 1
+randomlyExplode:false
+heatColor: ffffff00
+liquidCapacity: 120
+category: power
