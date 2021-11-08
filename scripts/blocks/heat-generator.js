@@ -22,7 +22,23 @@ const bigHeatGenerator = extend(BurnerGenerator, "heat-gen-big", {
   }
 });
 
-heatGenerator.buildType = () => extend(BurnerGenerator.BurnerGeneratorBuild, heatGenerator, {
+bigHeatGenerator.buildType = () => extend(BurnerGenerator.BurnerGeneratorBuild, bigHeatGenerator, {
+  update(){
+    this.super$update();
+    
+    if(this.productionEfficiency > 0.0 && this.generateTime - Time.delta <= 0 && Mathf.chance(0.01)) heatGenerator.generateFx.at(this.x + Mathf.range(heatGenerator.generateEffectRnd), this.y + Mathf.range(heatGenerator.generateEffectRnd));
+  }
+})
+
+const liquidBurner = extend(BurnerGenerator, "liquid-burner", {
+  generateEffect: Fx.none,
+  generateFx: Fx.smeltsmoke,
+  getLiquidEfficiency(liquid) {
+    return liquid.flammability
+  }
+});
+
+liquidBurner.buildType = () => extend(BurnerGenerator.BurnerGeneratorBuild, liquidBurner, {
   update(){
     this.super$update();
     

@@ -1,0 +1,22 @@
+name: Liquid Burner Plant
+size: 3
+health: 1000
+requirements:
+[
+    plastanium/65
+    silicon/75
+    steel/125
+    lead/35
+]
+hasPower: true
+hasItems: false
+hasLiquids: true
+powerProduction: 5.5
+defaults:false
+minItemEfficiency: 1000
+maxLiquidGenerate: 0.25
+minLiquidEfficiency: 0.1
+randomlyExplode: false
+heatColor: ffffff00
+liquidCapacity: 50
+category: power
