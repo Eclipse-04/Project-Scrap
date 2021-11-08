@@ -11,7 +11,7 @@ requirements:
 hasPower: true
 hasItems: false
 hasLiquids: true
-powerProduction: 5.5
+powerProduction: 11.5
 defaults:false
 minItemEfficiency: 1000
 maxLiquidGenerate: 0.25
