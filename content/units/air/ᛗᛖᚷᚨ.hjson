@@ -1,7 +1,7 @@
 type: flying
 name: "Beau"
 description: "WIP unit, incomplete description"
-controller: DefenderAI
+controller: RapairAI
 flying: true
 drag: 0.1
 rotateSpeed: 10
