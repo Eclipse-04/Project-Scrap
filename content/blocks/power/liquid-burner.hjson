@@ -7,6 +7,7 @@ requirements:
     silicon/75
     steel/125
     lead/35
+    tungsten/25
 ]
 hasPower: true
 hasItems: false
@@ -18,5 +19,5 @@ maxLiquidGenerate: 0.25
 minLiquidEfficiency: 0.1
 randomlyExplode: false
 heatColor: ffffff00
-liquidCapacity: 50
+liquidCapacity: 250
 category: power

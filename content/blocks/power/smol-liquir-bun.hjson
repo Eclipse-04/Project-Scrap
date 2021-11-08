@@ -1,0 +1,23 @@
+name: Liquid Burner Unit
+size: 2
+health: 350
+description: "Burn liquid directly for power, a little inefficieny."
+requirements:
+[
+    silicon/25
+    graphite/15
+    lead/25
+    copper/65
+]
+hasPower: true
+hasItems: false
+hasLiquids: true
+powerProduction: 4.5
+defaults: false
+minItemEfficiency: 1000
+maxLiquidGenerate: 0.1
+minLiquidEfficiency: 0.1
+randomlyExplode: false
+heatColor: ffffff00
+liquidCapacity: 50
+category: power
