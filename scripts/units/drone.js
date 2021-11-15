@@ -35,12 +35,14 @@ const coptera = extend(UnitType, "copter-a", {
 			"industrial-copter-a-rotator",
 			unit.x + Angles.trnsx(unit.rotation, 4.25),
 			unit.y + Angles.trnsy(unit.rotation, 4.25),
-			Time.time * -10);
+			Time.time * -10
+		);
 		Draw.rect(
 			"industrial-copter-a-top",
 			unit.x + Angles.trnsx(unit.rotation, 4.25),
 			unit.y + Angles.trnsy(unit.rotation, 4.25),
-			unit.rotation - 90);
+			unit.rotation - 90
+		);
 	}
 });
 const copterb = extend(UnitType, "copter-b", {
@@ -63,6 +65,24 @@ const copterb = extend(UnitType, "copter-b", {
 			unit.x + Angles.trnsx(unit.rotation, 4.5),
 			unit.y + Angles.trnsy(unit.rotation, 4.5),
 			Time.time * -15 
+		);
+		Draw.rect(
+			"industrial-copter-b-rotator",
+			unit.x + Angles.trnsx(unit.rotation, 4.5),
+			unit.y + Angles.trnsy(unit.rotation, 4.5),
+			Time.time * 15 + 120
+		);
+		Draw.rect(
+			"industrial-copter-b-rotator",
+			unit.x + Angles.trnsx(unit.rotation, 4.5),
+			unit.y + Angles.trnsy(unit.rotation, 4.5),
+			Time.time * 15 + 240
+		);
+		Draw.rect(
+			"industrial-copter-b-rotator",
+			unit.x + Angles.trnsx(unit.rotation, 4.5),
+			unit.y + Angles.trnsy(unit.rotation, 4.5),
+			Time.time * 15
 		);
 		Draw.rect(
 			"industrial-copter-b-top",

@@ -63,8 +63,8 @@ weapons:
     }
     {
         name: copter-b-gunb
-        x: 8
-        y: 7.25
+        x: 7
+        y: 4.25
         inaccuracy: 3
         mirror: true
         rotate: false
@@ -93,6 +93,7 @@ weapons:
             damage: 12
             speed: 2.83
             maxRange: 160
+            sprite: industrial-missle-raw
         }
     }
 ]
