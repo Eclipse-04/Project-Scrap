@@ -50,8 +50,8 @@ weapons:
             trailColor: f9c27a
             trailLength: 5
             trailWidth: 0.75
-            width: 0.75
-            height: 2
+            width: 2.75
+            height: 4
             drag: 0.03
             lifetime: 60
             damage: 7
