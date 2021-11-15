@@ -50,6 +50,12 @@ weapons:
                 waveColor: d06b53
                 sparks: 12
             }
+            hitEffect: {
+                type: ExplosionEffect
+                waveRad: 22
+                waveColor: d06b53
+                sparks: 12
+            }
             damage: 55
             drag: -0.01
             speed: 2
