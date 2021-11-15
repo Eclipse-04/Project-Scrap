@@ -8,5 +8,5 @@
 <br />Extension: EclipseTheOldOne/Industrial-Processing
 <br />Support Vietnamese
 # Helicopter!
-![image](https://github.com/EclipseTheOldOne/Project-Scrap/blob/main/sprites/githob/mod1.png?
-![image](https://github.com/EclipseTheOldOne/Project-Scrap/blob/main/sprites/githob/mod2.png?
+![image](https://github.com/EclipseTheOldOne/Project-Scrap/blob/main/sprites/githob/mod1.png?raw=true)
+![image](https://github.com/EclipseTheOldOne/Project-Scrap/blob/main/sprites/githob/mod2.png?raw=true)
