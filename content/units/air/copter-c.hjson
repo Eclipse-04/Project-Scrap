@@ -43,7 +43,7 @@ weapons:
             width: 6.5
             height: 14.25
             hitShake: 2.5
-            lifetime: 100
+            lifetime: 90
             despawnEffect: {
                 type: ExplosionEffect
                 waveRad: 22
@@ -51,7 +51,7 @@ weapons:
                 sparks: 12
             }
             damage: 55
-            drag: -0.015
+            drag: -0.01
             speed: 2
             splashDamage: 65
             splashDamageRadius: 20
