@@ -33,28 +33,13 @@ const coptera = extend(UnitType, "copter-a", {
 		this.super$draw(unit);
 		Draw.rect(
 			"industrial-copter-a-rotator",
-			unit.x + Angles.trnsx(unit.rotation, 4.5),
-			unit.y + Angles.trnsy(unit.rotation, 4.5),
-			Time.time * -15);
-		Draw.rect(
-			"industrial-copter-a-rotator-out",
-			unit.x + Angles.trnsx(unit.rotation, 4.5),
-			unit.y + Angles.trnsy(unit.rotation, 4.5),
-			Time.time * -15);
-		Draw.rect(
-			"industrial-copter-a-rotator",
-			unit.x + Angles.trnsx(unit.rotation, 4.5),
-			unit.y + Angles.trnsy(unit.rotation, 4.5),
-			Time.time * 15);
-		Draw.rect(
-			"industrial-copter-a-rotator-out",
-			unit.x + Angles.trnsx(unit.rotation, 4.5),
-			unit.y + Angles.trnsy(unit.rotation, 4.5),
-			Time.time * 15);
+			unit.x + Angles.trnsx(unit.rotation, 4.25),
+			unit.y + Angles.trnsy(unit.rotation, 4.25),
+			Time.time * -10);
 		Draw.rect(
 			"industrial-copter-a-top",
-			unit.x + Angles.trnsx(unit.rotation, 4.5),
-			unit.y + Angles.trnsy(unit.rotation, 4.5),
+			unit.x + Angles.trnsx(unit.rotation, 4.25),
+			unit.y + Angles.trnsy(unit.rotation, 4.25),
 			unit.rotation - 90);
 	}
 });

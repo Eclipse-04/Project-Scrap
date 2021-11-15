@@ -1,6 +1,6 @@
 type: flying
 name: "Breeze"
-health: 300
+health: 250
 flying: true
 speed: 2.5
 armor: 1
@@ -25,15 +25,14 @@ abilities:
 weapons:
 [
     {
-        name: fighter-missler
-        x: 4
-        y: 3
-        inaccuracy: 20
-        shotDelay: 3.5
-        shots: 2
+        name: copter-a-weapon
+        x: 5.25
+        y: 4.25
+        inaccuracy: 3
         mirror: true
         rotate: false
-        reload: 45
+        recoil: 1
+        reload: 20
         ejectEffect: {
             type: WaveEffect
             lifetime: 10
@@ -41,59 +40,23 @@ weapons:
             sizeTo: 10
             strokeFrom: 6
             strokeTo: 0
-
-        }
-
-        bullet: {
-            type: MissileBulletType
-            backColor: e58956
-            frontColor: ffd2ae
-            trailColor: e58956
-            trailLength: 7
-            trailWidth: 1
-            width: 3
-            height: 6
-            homingRange: 56
-            homingPower: 0.1
-            drag: -0.03
-            lifetime: 60
-            damage: 7
-            keepVelocity: false
-            maxRange: 180
-        }
-    }
-    {
-        name: fighter-missler
-        x: 4
-        y: 3
-        inaccuracy: 5
-        shotDelay: 3
-        shots: 3
-        mirror: true
-        rotate: false
-        reload: 30
-        ejectEffect: {
-            type: WaveEffect
-            lifetime: 10
-            sizeFrom: 0
-            sizeTo: 10
-            strokeFrom: 6
-            strokeTo: 0
-
+            colorFrom: ffa665
+            colorTo: ffa665
         }
         bullet: {
             type: BasicBulletType
-            backColor: e58956
-            frontColor: ffd2ae
-            trailColor: e58956
-            trailLength: 7
-            trailWidth: 1
-            width: 3
-            height: 6
-            lifetime: 70
+            backColor: f9c27a
+            frontColor: fff8e8
+            trailColor: f9c27a
+            trailLength: 5
+            trailWidth: 0.75
+            width: 0.75
+            height: 2
+            drag: 0.03
+            lifetime: 60
             damage: 7
-            speed: 2.5
-            maxRange: 180
+            speed: 2.83
+            maxRange: 160
         }
     }
 ]
