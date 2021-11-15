@@ -54,7 +54,7 @@ weapons:
             height: 4
             drag: 0.03
             lifetime: 60
-            damage: 7
+            damage: 12
             speed: 2.83
             maxRange: 160
         }
