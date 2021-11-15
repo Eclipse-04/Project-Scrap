@@ -51,7 +51,7 @@ weapons:
                 sparks: 12
             }
             damage: 55
-            drag: -0.03
+            drag: -0.015
             speed: 2
             splashDamage: 65
             splashDamageRadius: 20
