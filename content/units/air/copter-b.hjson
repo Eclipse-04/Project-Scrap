@@ -1,23 +1,23 @@
 type: flying
 name: "Gale"
-health: 300
+health: 550
 flying: true
 speed: 2.5
-armor: 1
+armor: 4.5
 drag: 0.02
 hitSize: 15
 itemCapacity: 70
 engineSize: 0
 rotateSpeed: 7
 circleTarget: true;
-accel: 0.2
-range: 48
+accel: 0.15
+range: 120
 abilities: 
 [
     {
         type: ShieldRegenFieldAbility
         amount: 10
-        reload: 60
+        reload: 50
         range: 60
         max: 50
     }
@@ -25,62 +25,74 @@ abilities:
 weapons:
 [
     {
-        name: copter-b-fuse
-        x: 5
-        y: 6.75
-        shots: 2
+        name: copter-b-gunb
+        x: 7
+        y: 4
         mirror: true
-        shootSound: shotgun
-        range: 60
         spread: 4
         rotate: false
-        reload: 30
+        reload: 45
         ejectEffect: {
             type: WaveEffect
             lifetime: 10
             sizeFrom: 0
-            colorFrom: e58956
-            colorTo: e58956
-            sizeTo: 10
+            sizeTo: 6
             strokeFrom: 6
             strokeTo: 0
-
+            colorFrom: ffa665
+            colorTo: ffa665
         }
-
         bullet: {
-            type: ShrapnelBulletType
-            fromColor: e58956
-            toColor: e58956
-            width: 10
-            length: 50
-            lifetime: 20
-            makeFire: true
-            damage: 21
-            maxRange: 37
+            type: BasicBulletType
+            backColor: ffffff
+            frontColor: ffffff
+            trailColor: f9c27a
+            trailLength: 5
+            trailWidth: 0.75
+            width: 1
+            height: 1
+            lifetime: 60
+            damage: 12
+            homingPower: 0.15
+            homingRange: 80
+            despawnEffect: flakExplosion
+            hitEffect: flakExplosion
+            speed: 2.83
+            maxRange: 110
         }
     }
     {
-        name: flame-thrower
-        x: 3
-        y: 10.5
-        inaccuracy: 0
-        shots: 1
+        name: copter-b-gunb
+        x: 8
+        y: 7.25
+        inaccuracy: 3
         mirror: true
         rotate: false
+        recoil: 1
         reload: 20
-        shootSound: flame
-        ejectEffect: none
+        ejectEffect: {
+            type: WaveEffect
+            lifetime: 10
+            sizeFrom: 0
+            sizeTo: 6
+            strokeFrom: 6
+            strokeTo: 0
+            colorFrom: ffa665
+            colorTo: ffa665
+        }
         bullet: {
-            type: FireBulletType
-            radius: 3.5
-            range: 30
-            speed: 3.5
-            lifetime: 70
-            status: burning
-            makefire: true
-            damage: 7
-            maxRange: 37
-            fireTrailChance: 0.03
+            type: BasicBulletType
+            backColor: f9c27a
+            frontColor: fff8e8
+            trailColor: f9c27a
+            trailLength: 5
+            trailWidth: 0.75
+            width: 2.75
+            height: 4
+            lifetime: 60
+            damage: 12
+            speed: 2.83
+            maxRange: 160
         }
     }
 ]

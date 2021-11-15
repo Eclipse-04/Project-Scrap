@@ -48,29 +48,28 @@ const copterb = extend(UnitType, "copter-b", {
 		this.super$draw(unit);
 		Draw.rect(
 			"industrial-copter-b-rotator",
-			unit.x + Angles.trnsx(unit.rotation, 5.25),
-			unit.y + Angles.trnsy(unit.rotation, 5.25),
-			Time.time * -15);
-		Draw.rect(
-			"industrial-copter-b-rotator-out",
-			unit.x + Angles.trnsx(unit.rotation, 5.25),
-			unit.y + Angles.trnsy(unit.rotation, 5.25),
-			Time.time * -15);
+			unit.x + Angles.trnsx(unit.rotation, 4.5),
+			unit.y + Angles.trnsy(unit.rotation, 4.5),
+			Time.time * -15 + 120
+		);
 		Draw.rect(
 			"industrial-copter-b-rotator",
-			unit.x + Angles.trnsx(unit.rotation, 5.25),
-			unit.y + Angles.trnsy(unit.rotation, 5.25),
-			Time.time * 15);
+			unit.x + Angles.trnsx(unit.rotation, 4.5),
+			unit.y + Angles.trnsy(unit.rotation, 4.5),
+			Time.time * -15 + 240
+		);
 		Draw.rect(
-			"industrial-copter-b-rotator-out",
-			unit.x + Angles.trnsx(unit.rotation, 5.25),
-			unit.y + Angles.trnsy(unit.rotation, 5.25),
-			Time.time * 15);
+			"industrial-copter-b-rotator",
+			unit.x + Angles.trnsx(unit.rotation, 4.5),
+			unit.y + Angles.trnsy(unit.rotation, 4.5),
+			Time.time * -15 
+		);
 		Draw.rect(
 			"industrial-copter-b-top",
-			unit.x + Angles.trnsx(unit.rotation, 5.25),
-			unit.y + Angles.trnsy(unit.rotation, 5.25),
-			unit.rotation - 90);
+			unit.x + Angles.trnsx(unit.rotation, 4.5),
+			unit.y + Angles.trnsy(unit.rotation, 4.5),
+			unit.rotation - 90
+		);
 	}
 });
 const copterc = extend(UnitType, "copter-c", {
