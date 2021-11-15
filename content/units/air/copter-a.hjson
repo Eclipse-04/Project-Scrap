@@ -2,7 +2,7 @@ type: flying
 name: "Breeze"
 health: 250
 flying: true
-speed: 2.5
+speed: 3
 armor: 1
 drag: 0.02
 hitSize: 10
