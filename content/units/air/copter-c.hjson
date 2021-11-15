@@ -9,7 +9,6 @@ hitSize: 10
 itemCapacity: 140
 engineSize: 0
 rotateSpeed: 7
-circleTarget: true;
 accel: 0.1
 range: 220
 weapons:
@@ -52,11 +51,12 @@ weapons:
                 sparks: 12
             }
             damage: 55
-            drag: 0.03
-            speed: 1
+            drag: 0.06
+            speed: 2
             splashDamage: 65
             splashDamageRadius: 20
             maxRange: 225
+            sprite: copter-c-rocket
         }
     }
 ]

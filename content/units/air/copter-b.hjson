@@ -9,7 +9,6 @@ hitSize: 15
 itemCapacity: 70
 engineSize: 0
 rotateSpeed: 7
-circleTarget: true;
 accel: 0.15
 range: 120
 abilities: 
