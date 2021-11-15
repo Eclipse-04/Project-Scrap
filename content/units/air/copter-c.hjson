@@ -56,7 +56,8 @@ weapons:
             splashDamage: 65
             splashDamageRadius: 20
             maxRange: 225
-            sprite: copter-c-rocket
+            sprite: industrial-copter-c-rocket
+            status: blasted
         }
     }
 ]
