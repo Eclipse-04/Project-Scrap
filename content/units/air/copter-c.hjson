@@ -15,14 +15,16 @@ weapons:
 [
     {
         name: copter-c-gun
+        type: PointDefenseWeapon
         x: 9.25
         y: 6.75
-        type: PointDefenseWeapon
         mirror: true
         rotate: true
         reload: 20
         bullet: {
-            damage: 24
+            damage: 30
+            targetInterval: 8
+            targetSwitchInterval: 8
             maxRange: 220
         }
     }
@@ -42,6 +44,8 @@ weapons:
             trailWidth: 1.5
             width: 6.5
             height: 14.25
+            homingPower: 0.09
+            homingRange: 80
             hitShake: 2.5
             lifetime: 90
             despawnEffect: {
@@ -56,10 +60,10 @@ weapons:
                 waveColor: d06b53
                 sparks: 12
             }
-            damage: 55
+            damage: 25
             drag: -0.01
             speed: 2
-            splashDamage: 65
+            splashDamage: 85
             splashDamageRadius: 20
             maxRange: 225
             sprite: industrial-copter-c-rocket
