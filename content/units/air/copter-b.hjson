@@ -50,9 +50,9 @@ weapons:
             trailColor: f9c27a
             trailLength: 5
             trailWidth: 0.75
-            width: 2
+            width: 4.2
             drag: -0.03
-            height: 3
+            height: 12
             lifetime: 60
             damage: 7
             homingPower: 0.15
@@ -93,8 +93,11 @@ weapons:
             trailColor: f9c27a
             trailLength: 5
             trailWidth: 0.75
-            width: 2.75
-            height: 4
+            width: 4.5
+            pierce: true
+            pierceBuilding: true
+            pierceCap: 2
+            height: 12
             lifetime: 60
             damage: 9
             speed: 2.83
