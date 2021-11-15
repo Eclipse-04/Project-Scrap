@@ -47,9 +47,9 @@ weapons:
             type: BasicBulletType
             backColor: ffffff
             frontColor: ffffff
-            trailColor: f9c27a
+            trailColor: ff7b69
             trailLength: 5
-            trailWidth: 0.75
+            trailWidth: 1.75
             width: 4.2
             drag: -0.03
             height: 12
@@ -92,7 +92,7 @@ weapons:
             frontColor: fff8e8
             trailColor: f9c27a
             trailLength: 5
-            trailWidth: 0.75
+            trailWidth: 1.75
             width: 4.5
             pierce: true
             pierceBuilding: true
