@@ -40,8 +40,8 @@ weapons:
             trailLength: 12
             trailChance: 0.4
             trailWidth: 1.5
-            width: 8
-            height: 8
+            width: 6.5
+            height: 14.25
             hitShake: 2.5
             lifetime: 100
             despawnEffect: {
