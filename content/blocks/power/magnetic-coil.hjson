@@ -1,4 +1,3 @@
-/*
 category: power
 maxNodes: 250
 description: "A large coil that transfer power to nearby building"
@@ -16,4 +15,3 @@ requirements:
     surge-alloy/50
     silicon/120
 ]
-trolling process incomplete due to problems*/
