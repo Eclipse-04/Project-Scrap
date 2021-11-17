@@ -8,10 +8,13 @@ name: Magnetic Coil
 size: 3
 laserRange: 25
 research: surge-tower
+laserColor1: ffffffae
+laserColor2: fbd367ae
 requirements:
 [
     lead/110
     tungsten/55
     surge-alloy/50
+    steel/75
     silicon/120
 ]
