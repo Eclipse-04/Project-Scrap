@@ -23,12 +23,3 @@ const copterC = extend(UnitType, "copter-c", {
 	}
 });
 copterC.constructor = () => extend(UnitEntity, {});
-copterC.abilities.add(EnergyFieldAbility(5, 20, 18));
-copterC.abilities.get(0).color = ffffff00
-copterC.abilities.get(0).hitEffect = hitBulletSmall
-copterC.abilities.get(0).healPercent = 0
-copterC.abilities.get(0).maxTargets = 250
-copterC.abilities.get(0).status = none
-copterC.abilities.get(0).localized(){
-    return "[accent]Razor Blade"
-}
