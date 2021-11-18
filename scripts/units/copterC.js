@@ -1,4 +1,4 @@
-const copterc = extend(UnitType, "copter-c", {
+const copterC = extend(UnitType, "copter-c", {
 	draw(unit) {
 		this.super$draw(unit);
 		Draw.rect(
@@ -22,13 +22,13 @@ const copterc = extend(UnitType, "copter-c", {
 		);
 	}
 });
-copterc.constructor = () => extend(UnitEntity, {});
-copterc.abilities.add(EnergyFieldAbility(5, 20, 18));
-copterc.abilities.get(0).color = ffffff00
-copterc.abilities.get(0).hitEffect = hitBulletSmall
-copterc.abilities.get(0).healPercent = 0
-copterc.abilities.get(0).maxTargets = 250
-copterc.abilities.get(0).status = none
-copterc.abilities.get(0).localized(){
+copterC.constructor = () => extend(UnitEntity, {});
+copterC.abilities.add(EnergyFieldAbility(5, 20, 18));
+copterC.abilities.get(0).color = ffffff00
+copterC.abilities.get(0).hitEffect = hitBulletSmall
+copterC.abilities.get(0).healPercent = 0
+copterC.abilities.get(0).maxTargets = 250
+copterC.abilities.get(0).status = none
+copterC.abilities.get(0).localized(){
     return "[accent]Razor Blade"
 }
