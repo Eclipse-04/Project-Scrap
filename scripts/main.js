@@ -3,7 +3,6 @@ require("blocks/heat-generator");
 require("blocks/sulfur");
 require("units/drone");
 require("blocks/phase");
-require("blocks/big-node");
 //require("event/collecting")
 require("blocks/multicrafter/ammo-factory")
 require("blocks/multicrafter/thicc-forge")

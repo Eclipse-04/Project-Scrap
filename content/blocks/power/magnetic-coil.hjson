@@ -1,4 +1,5 @@
 category: power
+type: PowerNode
 maxNodes: 250
 description: "A large coil that transfer power to nearby building"
 laserColor1: ffffff00

@@ -26,3 +26,9 @@ copterc.constructor = () => extend(UnitEntity, {});
 copterc.abilities.add(EnergyFieldAbility(5, 20, 18));
 copterc.abilities.get(0).color = ffffff00
 copterc.abilities.get(0).hitEffect = hitBulletSmall
+copterc.abilities.get(0).healPercent = 0
+copterc.abilities.get(0).maxTargets = 250
+copterc.abilities.get(0).status = none
+copterc.abilities.get(0).localized(){
+    return "[accent]Razor Blade"
+}
