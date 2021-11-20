@@ -29,11 +29,12 @@ shootEffect:
         {
             type: WaveEffect
             sizeFrom: 0
-            sizeTo: 8
+            sizeTo: 10
             colorFrom: ea8878
             colorTo: ea8878
             strokeFrom: 3
             strokeTo: 0
+            lifeTime: 15
         }
     ]
 }
@@ -56,7 +57,7 @@ ammoTypes:
         speed: 4
         type: BasicBulletType
         lifeTime: 30
-        width: 8
+        width: 5.7
         backColor: ab99d3
         height: 12
         damage: 13
@@ -66,8 +67,8 @@ ammoTypes:
         speed: 4
         type: BasicBulletType
         lifeTime: 30
-        width: 10
-        height: 14
+        width: 6
+        height: 16
         backColor: 95abd9
         damage: 24
         reloadMultiplier: 0.85
@@ -78,12 +79,25 @@ ammoTypes:
         pierce: true
         pierceCap: 2
         type: BasicBulletType
+        backColor: a4b8fa
         lifeTime: 30
         backColor: 919fe7
         width: 5.5
-        height: 12
+        height: 16
         reloadMultiplier: 1.3
-        damage: 15
+        damage: 17
+        sprite: shell
+    }
+    pyratite: {
+        speed: 4
+        type: BasicBulletType
+        lifeTime: 30
+        backColor: d37f47
+        frontColor: ffaa5f
+        width: 7
+        height: 16
+        reloadMultiplier: 1.3
+        damage: 22
         sprite: shell
     }
 }
