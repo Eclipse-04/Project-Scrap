@@ -20,7 +20,8 @@ shootEffect:
         {
             type: ParticleEffect
             lifeTime: 20
-            cone: 20
+            length: 35
+            cone: 14
             line: true
             sizeFrom: 5
             colorFrom: ea8878
@@ -29,12 +30,12 @@ shootEffect:
         {
             type: WaveEffect
             sizeFrom: 0
-            sizeTo: 10
+            sizeTo: 12
             colorFrom: ea8878
             colorTo: ea8878
             strokeFrom: 3
             strokeTo: 0
-            lifeTime: 15
+            lifeTime: 10
         }
     ]
 }

@@ -1,0 +1,39 @@
+name: Area Accelerator
+description: "Overdrive a huge area, require large amount of phase and cryo fluid"
+health: 1250
+size: 4
+range: 420
+speedBoost: 3.5
+hasBoost: false
+useTime: 180
+drawer:
+{
+    type: DrawLiquid
+}
+consumes:
+{
+    power: 22
+    items:
+    {
+        items:
+        [
+            phase-fabric/2
+            silicon/3
+        ]
+    }
+    liquid:
+    {
+        liquid: cryofluid
+        amount: 0.3
+    }
+}
+research: overdrive-dome
+requirements:
+[
+    lead/550
+    surge-alloy/250
+    plastanium/150
+    silicon/350
+    graphite/150
+    thorium/125
+]
