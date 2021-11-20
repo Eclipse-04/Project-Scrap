@@ -22,3 +22,37 @@ shootShake: 1.2
 shootSound: shootBig
 ammoUseEffect: casing2
 category: turret
+ammoTypes:
+{
+    lead: {
+        speed: 4
+        type: BasicBulletType
+        lifeTime: 30
+        width: 8
+        height: 12
+        damage: 13
+        sprite: shell
+    }
+    graphite: {
+        speed: 4
+        type: BasicBulletType
+        lifeTime: 30
+        width: 10
+        height: 14
+        damage: 24
+        reloadMultiplier: 0.85
+        sprite: shell
+    }
+    titanium: {
+        speed: 4.1
+        pierce: true
+        pierceCap: 2
+        type: BasicBulletType
+        lifeTime: 30
+        width: 5.5
+        height: 12
+        reloadMultiplier: 1.3
+        damage: 15
+        sprite: shell
+    }
+}
