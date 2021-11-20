@@ -2,7 +2,7 @@ health: 750
 requirements:
 [
     lead/75
-    coppter/95
+    copper/95
     metaglass/15
     graphite/25
 ]
