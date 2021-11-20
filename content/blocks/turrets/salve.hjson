@@ -57,6 +57,7 @@ ammoTypes:
         type: BasicBulletType
         lifeTime: 30
         width: 8
+        backColor: ab99d3
         height: 12
         damage: 13
         sprite: shell
@@ -67,6 +68,7 @@ ammoTypes:
         lifeTime: 30
         width: 10
         height: 14
+        backColor: 95abd9
         damage: 24
         reloadMultiplier: 0.85
         sprite: shell
@@ -77,6 +79,7 @@ ammoTypes:
         pierceCap: 2
         type: BasicBulletType
         lifeTime: 30
+        backColor: 919fe7
         width: 5.5
         height: 12
         reloadMultiplier: 1.3
