@@ -32,7 +32,7 @@ const coptera = extend(UnitType, "copter-a", {
 	draw(unit) {
 		this.super$draw(unit);
 		Draw.rect(
-			"industrial-copter-a-rotator",
+			Core.atlas.find("industrial-copter-a-rotator"),
 			unit.x + Angles.trnsx(unit.rotation, 4.25),
 			unit.y + Angles.trnsy(unit.rotation, 4.25),
 			Time.time * -10
