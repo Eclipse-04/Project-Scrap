@@ -6,4 +6,3 @@ salve.ammo(
     Items.graphite, lib.shotGunGraphite,
     Items.titanium, lib.shotGunTitan,
 )
-salve.buildType = () => extend(ItemTurret.ItemTurretBuild, {})
