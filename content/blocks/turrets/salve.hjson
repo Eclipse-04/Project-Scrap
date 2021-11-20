@@ -14,6 +14,7 @@ ammoPerShot: 3
 inaccuracy: 10
 shots: 5
 size: 2
+itemCapacity: 55
 reloadTime: 60 
 range: 120
 research: salvo
