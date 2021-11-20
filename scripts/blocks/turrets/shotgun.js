@@ -1,5 +1,5 @@
 let lib = require("ammon-lib");
-const salve = extendContent(ItemTurret, "salve", {})
+const salve = extend(ItemTurret, "salve", {})
 salve.ammo(
     Items.scrap, lib.shotGunScrap,
     Items.lead, lib.shotGunLead,
