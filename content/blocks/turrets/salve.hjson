@@ -1,0 +1,23 @@
+health: 750
+requirements:
+[
+    lead/75
+    coppter/95
+    metaglass/15
+    graphite/25
+]
+name: Salve
+description: "A shotgun turret, shots bullet in burst"
+maxAmmo: 35
+ammoPerShot: 3
+inaccuracy: 10
+shots: 5
+size: 2
+reloadTime: 60 
+range: 120
+research: salvo
+shootCone: 4
+shootShake: 1.2
+shootSound: shootBig
+ammoUseEffect: casing2
+category: turret
