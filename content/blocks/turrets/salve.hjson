@@ -94,6 +94,7 @@ ammoTypes:
         lifeTime: 30
         backColor: d37f47
         frontColor: ffaa5f
+        status: burning
         width: 7
         height: 16
         reloadMultiplier: 1.3
