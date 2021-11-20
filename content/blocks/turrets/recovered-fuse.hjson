@@ -18,8 +18,10 @@ requirements:
 shootSound: shotgun
 recoilAmount: 2
 rotateSpeed: 15
-ammoTypes: {
-    scrap: {
+ammoTypes:
+{
+    scrap:
+    {
         type: ShrapnelBulletType
         length: 85
         width: 10

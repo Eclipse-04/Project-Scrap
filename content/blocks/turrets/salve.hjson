@@ -12,6 +12,31 @@ description: "A shotgun turret, shots bullet in burst"
 maxAmmo: 35
 ammoPerShot: 3
 inaccuracy: 10
+shootEffect:
+{
+    type: MultiEffect
+    lifeTime: 120
+    effects: [
+        {
+            type: ParticleEffect
+            lifeTime: 20
+            cone: 20
+            line: true
+            sizeFrom: 5
+            colorFrom: ea8878
+            colorTo: ea887800
+        }
+        {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 8
+            colorFrom: ea8878
+            colorTo: ea8878
+            strokeFrom: 3
+            strokeTo: 0
+        }
+    ]
+}
 shots: 5
 size: 2
 separateItemCapacity: true
