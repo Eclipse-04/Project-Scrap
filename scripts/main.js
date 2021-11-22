@@ -7,4 +7,4 @@ require("blocks/phase");
 //require("event/collecting")
 require("blocks/multicrafter/ammo-factory")
 require("blocks/multicrafter/thicc-forge")
-require("blocks/turrets/shotgun")
+require("blocks/turrets/test")
