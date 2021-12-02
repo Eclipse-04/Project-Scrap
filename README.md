@@ -10,3 +10,5 @@
 # Helicopter!
 ![image](https://github.com/EclipseTheOldOne/Project-Scrap/blob/main/sprites/githob/mod1.png?raw=true)
 ![image](https://github.com/EclipseTheOldOne/Project-Scrap/blob/main/sprites/githob/mod2.png?raw=true)
+
+Lore: http://besser.tsoa.nyu.edu/howard/Anarchism/Unabom/manifesto2.html
